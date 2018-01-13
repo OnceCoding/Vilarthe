@@ -1,0 +1,202 @@
+:root{
+    /*--color1 : hsl(0,0%,15%);*/
+    --color1 : #171717;
+    --color1_1 : rgba(0,0,0,0.7);
+    --color2 : hsl(0,0%,30%);
+}
+
+*{
+    margin: 0;
+}
+
+@media only screen and (min-width: 760px){
+    .brand{
+        position: absolute;
+        width: 40%;
+        min-height: 100vh;
+        background-color: var(--color1);
+        background-image: url("../images/matiz.png");
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        padding-left: 100px;
+        margin-left: 100px;
+        transform: skewX(-10deg);
+        transform: translateX(-100px);
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        box-sizing: border-box;
+        padding-top: 12%;            }
+
+    h3{
+        margin-top: 30%;
+    }
+
+    .brand::after{
+        position: absolute;
+        content: '';
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../images/matiz.png");
+        width: 100%;
+        height: 100%;
+        transform-origin: bottom right;
+        transform: skewX(-15deg);
+        border-right: 10px solid rgba(0,0,0,0.001);
+    }
+
+    .categories{
+        list-style: none;
+        padding: 0;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+    }
+
+    .categories .item{
+        width: 90%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgba(0,0,0,0.2);
+    }
+
+    .categories .item a{
+        text-decoration: none;
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+
+    .categories .item a:focus{
+        border: none;
+    }
+
+    .categories .active{
+        background-color: rgba(0,0,0,0.5);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .divider{
+        border-top: 1px solid rgba(255,255,255,0.4);
+        height: 3px;
+        width: 5%;
+    }
+
+    .slider{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 60%;
+        background-color: var(--color2);
+        z-index: -2;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        background-image: url(../images/baby1.jpg);
+        box-sizing: border-box;
+
+    }
+
+    .image{
+        position: relative;
+        left: 15%;
+        box-sizing: border-box;
+    }
+
+    .imageBrand{
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+
+    }
+
+    /*.image{
+        background-image: url(images/baby1.jpg);
+        animation: 20s slideImage 0s;
+    }*/
+
+    /*@keyframes slideImage {
+        0%{
+            background-image: url(images/box.png);
+        }
+    }*/
+
+
+    /*
+    .slider::after{
+        position: absolute;
+        content: '';
+        background-color: inherit;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        transform-origin: top left;
+        transform: skewX(-23deg);
+    }
+    */
+}
+
+@media(max-width: 759px){
+    .brand{
+        position: absolute;
+        width: 100%;
+        min-height: 100vh;
+        background-color: var(--color1);
+        color: white;
+        padding-top: 100px;
+        text-align: center;
+        font-size: 50px;
+
+    }
+
+
+    .categories{
+        list-style: none;
+        padding: 0;
+        font-size: 23px;
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .categories .item{
+        width: 40%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .divider{
+        border-top: 1px solid white;
+        height: 3px;
+        width: 40%;
+    }
+
+
+
+
+}
+
