@@ -21,26 +21,26 @@
     <nav class="navbar navbar-expand-lg  fixed-top Main-nav" id="Main-nav">
 
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#top-page"> <img src="../public/lazosPublic/img/logo8.png"> </a>
+            <a class="navbar-brand js-scroll-trigger" href=""> <img src="../public/lazosPublic/img/logo8.png"> </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto d-sm-flex align-items-center">
                     <li class="nav-item d-flex mx-10">
-                        <a class="nav-link js-scroll-trigger" href="#Main-home">Inicio</a>
+                        <a class="nav-link js-scroll-trigger scroll" href="#Main-home"> Inicio</a>
                     </li>
-                    <li class="nav-item" id="a">
-                        <a class="nav-link js-scroll-trigger" href="#mu-author">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="algo nav-link js-scroll-trigger" href="#Main-programs">Productos</a>
+                    <li class="nav-item" >
+                        <a class="nav-link js-scroll-trigger scroll" href="#mu-author">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#business">Contribución a la Comunidad</a>
+                        <a class="algo nav-link js-scroll-trigger scroll" href="#Main-programs">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#Main-contact">Contacto</a>
+                        <a class="nav-link js-scroll-trigger scroll" href="#business">Contribución a la Comunidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger scroll" href="#CONTACT">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -308,35 +308,6 @@
         </section>
         <!-- End off Business section -->
 
-    <!-- Start Contact -->
-    <!-- <section class="Main-contact py-5" id="Main-contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 d-flex justify-content-center">
-                    <img src="img/imgStudent.png" alt="">
-                </div>
-                <div class="col-sm-12 col-md-6">
-                    <h4 class="font-weight-bold text-white text-center mt-3">CONTACTANOS </h4>
-                    <h6 class="font-weight-light text-white text-center  mb-md-5">Escríbenos y te informaremos acerca de nuestros programas</h6>
-                    <form>
-                        <div class="form-group">
-                            <label class="text-white mb-0" for="inputName">Nombre</label>
-                            <input type="text" class="form-control" id="inputName" placeholder="Escribe tu nombre">
-                        </div>
-                        <div class="form-group">
-                            <label class="text-white mb-0" for="inputProgram">Programa</label>
-                            <input type="text" class="form-control" id="inputProgram" placeholder="Elije el programa de tu interes">
-                        </div>
-                        <div class="form-group">
-                            <label class="text-white mb-0" for="inputEmail">Correo electronico</label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="correo@ejemplo.com">
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-sm btn-block">ENVIAR</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section> -->
     <section class="contact" id="CONTACT">
             <hr>
         <div class="container">
@@ -393,67 +364,7 @@
             </div>
         </div>
     </section>
-   
-    <!-- Footer -->
-    <!-- <div class="Main-footer">
-        <div class="Main-footer__logo">
-            <img src="img/imgWomen.png" alt="">
-        </div>
-        <div class="container">
-            <div class="row pt-2">
-                <div class="col">
-                    <h2 class="Main-footer__tittle h2"> TI Cognitivas </h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="container">
-                    <div class="col">
-                        <div class="row">
-                            <div class="col-12 col-lg-6 mt-sm-5 mt-md-0">
-                                <p class="h6">
-                                    Si quieres saber más de nuestros programas pensados para ti, contactanos en:
-                                </p>
-                            </div>
-                            <div class="col-12 col-lg-4">
-                                 <div class="Main-footer__dataContact">
-                                    <ul>
-                                        <li> <i class="fa fa-map-marker text-white" aria-hidden="true"></i>
-                                            Av. Sanchez Carrión #123 - Trujillo
-                                        </li>
-                                        <li> <i class="fa fa-envelope text-white" aria-hidden="true"></i>
-                                            info@itcognitivas.com
-                                        </li>
-                                        <li> <i class="fa fa-phone text-white" aria-hidden="true"></i>
-                                            044-232-233
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-2">
-                                <div class="h6">Síguenos: </div>
-                                <div class="Main-footer__social-icons d-flex justify-content-center">
-                                    <a href=""> <i class="fa fa-facebook-square " aria-hidden="true"></i> </a>
-                                    <a href=""> <i class="fa fa-youtube-square " aria-hidden="true"></i> </a>
-                                    <a href=""> <i class="fa fa-google-plus-square " aria-hidden="true"></i></a>
-                                    <a href=""> <i class="fa fa-linkedin-square " aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr class="mb-2">
-            <div class="row pb-2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col d-flex justify-content-center">
-                            <span class="copyright">Copyright &copy; TI Cognitivas 2017</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+
     <footer>
         <div class="container">
             <div class="container">

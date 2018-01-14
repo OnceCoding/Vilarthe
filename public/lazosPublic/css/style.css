@@ -29,6 +29,10 @@ body {
     -webkit-tap-highlight-color: #fed136;
 }
 
+span{
+    cursor: pointer;
+}
+
 hr{
     color: white;
     background-color: var(--colorLight);

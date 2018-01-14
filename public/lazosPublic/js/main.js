@@ -1,35 +1,27 @@
-(function($) {
-    "use strict"; // Start of use strict
+$(function () {
 
-    /* Smooth scrolling using jQuery easing
-    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html, body').animate({
-                    scrollTop: (target.offset().top - 54)
-                }, 1000, "easeInOutExpo");
-                return false;
-            }
-        }
-    });
-*/
     // Closes responsive menu when a scroll trigger link is clicked
     $('.js-scroll-trigger').click(function() {
         $('.navbar-collapse').collapse('hide');
     });
 
+
+    $(".scroll").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top - 80}, 1200);
+    });
+
+
+    var mainNav = $("#Main-nav");
+
     // Activate scrollspy to add active class to navbar items on scroll
     $('body').scrollspy({
         target: '#Main-nav',
-        offset: 89
+        offset: 100
     });
 
     // Collapse Navbar
     var navbarCollapse = function() {
-
-        var mainNav = $("#Main-nav");
 
         if (mainNav.offset().top > 150) {
             mainNav.removeClass("navbar-dark");
@@ -52,13 +44,14 @@
     $(window).scroll(navbarCollapse);
 
     $('button').on('click', function(){
-                 
-        var lang = $(this).data('lang'); 
-          
+
+        var lang = $(this).data('lang');
+
         $('html').prop('lang', lang);
-          
-      });
-    
+
+    });
 
 
-})(jQuery); // End of use strict
+
+});
+
