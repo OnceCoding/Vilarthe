@@ -8,6 +8,8 @@ class LazosController extends Controller {
         $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
         $language = $this->getUserLanguage();
 
+        #echo $actual_link ; die();
+
         if(substr($actual_link, -1, 1) == "/"){
             #echo "es igual"; die();
             header("location:" . $language);

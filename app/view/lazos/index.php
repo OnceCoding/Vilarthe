@@ -18,32 +18,6 @@
 </head>
 <body id="top-page">
 
-    <!-- Navigation --
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top Main-nav" id="Main-nav">
-        <div class="container">
-
-            <a class="navbar-brand js-scroll-trigger" href="#top-page"> TI Cognitivas </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto d-sm-flex align-items-center">
-                    <li class="nav-item px-2">
-                        <a class="nav-link js-scroll-trigger" href="#Main-home"> INICIO </a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link js-scroll-trigger" href="#Main-programs"> PROGRAMAS </a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link js-scroll-trigger" href="#Main-contact"> CONTACTO </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    -->
     <nav class="navbar navbar-expand-lg  fixed-top Main-nav" id="Main-nav">
 
         <div class="container">
@@ -523,12 +497,12 @@
     <script src="../public/libraries/js/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <!--script src="public/libraries/js/popper.min.js"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="../public/libraries/js/bootstrap.min.js"></script>
     <script src="../public/lazosPublic/js/main.js"></script>
 
     <!--script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script!-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
 </body>
 </html>

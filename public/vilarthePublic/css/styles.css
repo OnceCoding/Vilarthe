@@ -21,7 +21,7 @@
         font-size: 50px;
         padding-left: 100px;
         margin-left: 100px;
-        transform: skewX(-10deg);
+        transform: skewX(-10deg ) ;
         transform: translateX(-100px);
         flex-direction: column;
         justify-content: center;
@@ -161,7 +161,7 @@
 @media(max-width: 759px){
     .brand{
         position: absolute;
-        width: 100%;
+        width: 50%;
         min-height: 100vh;
         background-color: var(--color1);
         color: white;

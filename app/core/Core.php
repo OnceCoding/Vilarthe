@@ -28,10 +28,19 @@ class Core{
                 $this->method = $url[1];
                 unset($url[1]);
             }
+            else{
+                $this->method = 'es';
+            }
         }
 
+
         $this->parameter = $url ? array_values($url) : [];
-        call_user_func_array([$this->controller, $this->method], $this->parameter);
+
+        if($this->parameter != []){
+            header("location:/vilarthe/lazos");
+        }
+
+        call_user_func_array([$this->controller, $this->method], []);
     }
 
     public function getUrl(){
