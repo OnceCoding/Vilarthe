@@ -51,21 +51,21 @@
     <header id="Main-home">
         <div class="container">
             <div class="row">
-                <div class="jumbotron ">
+                <div class="jumbotron d-none d-lg-block">
                     <div class="intro-text">
                         <div class="row">
-                            <div class="col">
+                            <div class="col d-none d-lg-block">
                                 <p class="intro-lead-in text-white h3"> </p>
                                 <h2 class="intro-lead-in text-white h3">Ropa para bebes hecho con algodón orgánico </h2>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col">
+                            <div class="col d-none d-lg-block">
                                 <p class="intro-heading text-uppercase text-white h1">LAZOS BABY CLOTHING</p>
                             </div>
                         </div>
                         <div class="row mt-4">
-                            <div class="col-8 col-md-4">
+                            <div class="col-8 col-md-4 d-none d-lg-block">
                                 <a class="btn btn-primary btn-block text-uppercase js-scroll-trigger" href="#Main-programs">Ver Productos</a>
                             </div>
                         </div>
