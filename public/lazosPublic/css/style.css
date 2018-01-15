@@ -61,12 +61,13 @@ input:focus{
     position: absolute;
     display: block;
     background-color: var(--colorPrimary);
-    transform: translateX(50%);
-    margin-left: 20%;
+    margin-left: 0;
     margin-top: 5px;
     height: 5px;
-    width: 23%;
+    width: 100%;
+
 }
+/*
 .Main-programs__title:before{
     content: '';
     position: absolute;
@@ -77,7 +78,7 @@ input:focus{
     margin-top: 38.4px;
     height: 5px;
     width: 30%;
-}
+}*/
 
 .Main-footer__logo img{
     position: relative;

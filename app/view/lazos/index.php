@@ -10,7 +10,7 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <link href="../public/libraries/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!--link href="../public/libraries/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"-->
     <link rel="stylesheet" href="../public/lazosPublic/css/style.css">
 
 
@@ -21,7 +21,7 @@
     <nav class="navbar navbar-expand-lg  fixed-top Main-nav" id="Main-nav">
 
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href=""> <img src="../public/lazosPublic/img/logo8.png"> </a>
+            <a class="navbar-brand js-scroll-trigger scroll" href="#top-page"> <img src="../public/lazosPublic/img/logo8.png"> </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -79,11 +79,11 @@
 		<section id="mu-author">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-10 offset-1 offset-md-0 col-md-12">
 						<div class="mu-author-area">
 
                                 <div class="row mt-4 d-flex justify-content-center">
-                                        <div class="col-4">
+                                        <div class="col-12 col-md-4">
                                             <h3 class="Main-programs__title text-center text-wrap mb-sm-5">NOSOTROS</h3>
                                         </div>
                                     </div>
@@ -91,16 +91,16 @@
 							<!-- Start Author Content -->
 							<div class="mu-author-content">
 								<div class="row">
-                                        <div class="col-md-4">
-                                        </div>
-									<div class="col-md-4">
+                                    <div class="col-lg-4">
+                                    </div>
+									<div class="col-lg-4">
 										<div class="mu-author-info">
 											<p><strong>Vilarthe</strong> es una marca de ropa y accesorios creada en el departamento de Lambayeque en el norte del Perú con el objetivo de hacerle llegar lo mejor de nuestras fibras peruanas elaboradas con el mejor algodón de la región legado de nuestro pasado milenario siguiendo las tendencias de la moda.</p>
 											<p>Vilarthe ha creado la línea <i><strong>Lazos Baby Clothing</strong></i> elaborada especialmente pensando en proteger la sensible y delicada piel de los bebés.</p>
 											
 										</div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="d-none d-md-block col-lg-4">
                                             <div class="mu-author-info">
                                                 <p>Características generales: Los tejidos convencionales están elaborados con algodón peruano (pima o nativo), Orgánicos, y teñidos 100% con tintes naturales, los accesorios son antialérgicos libres de níquel diseñados exclusivamente para Lazos Baby Clothing e inspirados en las tendencias y temporadas.</p>
                                                 <p>Las prendas de vestir elaboradas con algodón orgánico certificado le garantizan un producto de calidad ya que en el proceso para producir algodón no se utilizan productos químicos además contribuye con la protección al medio ambiente ya que genera menos contaminación que en un proceso de producción de algodón convencional.</p>
@@ -128,7 +128,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-12 col-md-4">
+                <div class="col-10 offset-1 offset-md-0 col-md-4">
                     <div class="card">
                         <div class="card-body">
                             <img src="../public/lazosPublic/img/imgConjunto1.png" class="card-img" alt="">
@@ -136,7 +136,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4">
+                <div class="col-10 offset-1 offset-md-0 col-md-4">
                     <div class="card">
                         <div class="card-body">
                             <img src="../public/lazosPublic/img/imgConjunto2.PNG" class="card-img" alt="">
@@ -144,7 +144,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4">
+                <div class="col-10 offset-1 offset-md-0 col-md-4">
                     <div class="card">
                         <div class="card-body">
                             <img src="../public/lazosPublic/img/imgConjunto3.PNG" class="card-img" alt="">
@@ -155,7 +155,7 @@
             </div>
 
             <div class="row">
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-10 offset-1 offset-md-0 col-md-4">
                         <div class="card">
                             <div class="card-body">
                                 <img src="../public/lazosPublic/img/imgConjunto1.PNG" class="card-img" alt="">
@@ -163,7 +163,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-10 offset-1 offset-md-0 col-md-4">
                         <div class="card">
                             <div class="card-body">
                                 <img src="../public/lazosPublic/img/imgConjunto2.PNG" class="card-img" alt="">
@@ -171,7 +171,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-10 offset-1 offset-md-0 col-md-4">
                         <div class="card">
                             <div class="card-body">
                                 <img src="../public/lazosPublic/img/imgConjunto3.PNG" class="card-img" alt="">
@@ -190,13 +190,13 @@
             <hr>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-10 offset-1 offset-md-0 col-md-12">
                         <div class="main_business">
                             <div class="row mt-4 d-flex justify-content-center ">
                                 <h3 class="Main-programs__title text-center text-wrap mb-sm-5">CONTRIBUCIÓN A LA COMUNIDAD</h3>
                             </div>
                             <div class="row">
-                                <div class="col-md-6 ">
+                                <div class=" col-md-6">
                                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                                 <div class="carousel-inner" role="listbox">
                                                 <div class="carousel-item active">
@@ -218,8 +218,10 @@
                                                 <span class="sr-only">Next</span>
                                                 </a>
                                             </div>
-                                            <div class="img-onu">
-                                                <img class="img-responsive" src="../public/lazosPublic/img/igualdad_genero.jpg" alt="First slide">
+                                            <div class="d-none d-md-block">
+                                                <div class="img-onu">
+                                                    <img class="img-responsive" src="../public/lazosPublic/img/igualdad_genero.jpg" alt="First slide">
+                                                </div>
                                             </div>
                                 </div>
                             
@@ -253,27 +255,29 @@
             </div>
 
             <div class="container">
-                    <hr>
+                <hr>
                 <div class="row">
                                 
-                    <div class="col-md-6">
+                    <div class="col-10 offset-1 offset-md-0 col-md-6">
                             <div class="mu-business-content">
                                 <div class="business_item sm-m-top-50">
                                     <h2 ><strong>Al rescate de nuestro algodón nativo orgánico</strong></h2>
                                     <p class="m-top-20">Cumplimos con los objetivos de desarrollo sostenible de la ONU, producción y consumo responsable y vida de ecosistemas terrestres.</p>
                                     <p class="m-top-20">Producimos y rescatamos una variedad de algodón llamado “Algodón nativo” que se caracteriza por poseer tintes naturales que junto a nuestro algodón pima 100% peruano teñido con tintes naturales nos permiten diseñar y crear prendas con más calidad ya que esta variedad de algodón no necesita tintes para obtener sus variados colores.</p>
-                                    <a>Capacitaciones</a>
-                                    <ul>
+                                    <div class="d-none d-md-block">
+                                        <a>Capacitaciones</a>
+                                        <ul>
                                             <li>Implementación de las 5Ss / Ministerio de comercio exterior y turismo.</li>
                                             <li>Fortalecer la red de asociaciones en el mercado de organización y artesanía / Cáritas, Fondo Ítalo Peruano.</li>
                                             <li>Programa de formación: Comité de gestión del Santuario Histórico Bosque de Pómac.</li>
                                             <li>Proceso de implementación de las NTP 232.204 2014 ARTESANÍAS, ARTESANIAS DE TEXTL EN TELAR DE CINTURA, REQUISITOS.</li>
                                             <li>Programa Nacional de Turismo Andino / Sierra exportadora.</li>
-                                    </ul>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                     </div>
-                    <div class="col-md-6 ">
+                    <div class="col-10 offset-1 offset-md-0 col-md-6 ">
                             <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
@@ -295,9 +299,11 @@
                                     <span class="sr-only">Next</span>
                                     </a>
                                 </div>
-                                <div class="img-onu">
-                                    <img class="img-responsive" src="../public/lazosPublic/img/desarrollo_sostenible.jpg" alt="First slide">
-                                    <img class="img-responsive" src="../public/lazosPublic/img/vida_ecosistema.jpg" alt="First slide">
+                                <div class="d-none d-md-block">
+                                    <div class="img-onu">
+                                        <img class="img-responsive" src="../public/lazosPublic/img/desarrollo_sostenible.jpg" alt="First slide">
+                                        <img class="img-responsive" src="../public/lazosPublic/img/vida_ecosistema.jpg" alt="First slide">
+                                    </div>
                                 </div>
                     </div>
                 </div>
@@ -309,11 +315,11 @@
         <!-- End off Business section -->
 
     <section class="contact" id="CONTACT">
-            <hr>
+        <hr>
         <div class="container">
             
             <div class="row">
-                <div class="col-md-12 text-center">
+                <div class="col-10 offset-1 offset-md-0 col-md-12 text-center">
                     <div class="row mt-4 d-flex justify-content-center ">
                         <h3 class="Main-programs__title text-center text-wrap mb-sm-5">CONTACTO</h3>
                     </div>
@@ -321,7 +327,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
+            <div class="row col-10 offset-1 offset-md-0 col-md-12">
                 <div class="col-md-3  wow fadeInLeft animated">
                     <div class="single_contact_info" style="padding-top: 20px;">
                         <h2>Call Me</h2>
