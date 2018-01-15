@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto d-sm-flex align-items-center">
                     <li class="nav-item d-flex mx-10">
-                        <a class="nav-link js-scroll-trigger scroll" href="#Main-home"> Inicio</a>
+                        <a class="nav-link js-scroll-trigger scroll" href="#Main-home"> Home</a>
                     </li>
                     <li class="nav-item" >
                         <a class="nav-link js-scroll-trigger scroll" href="#mu-author">Nosotros</a>
