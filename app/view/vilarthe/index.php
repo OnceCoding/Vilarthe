@@ -1,19 +1,29 @@
+<?php
+
+    #onHosting
+    #$server = "/";
+
+    #onLocalHost
+    $server = "";
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Vilathe</title>
-    <base href="" target="_self">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <!--link rel="stylesheet" href="public/vilarthePublic/css/styles.css"-->
-    <link rel="stylesheet" href="public/vilarthePublic/css/sty.css">
+    <link rel="stylesheet" href="<?= $server ?>public/vilarthePublic/css/sty.css">
 </head>
 <body>
     <div class="container-fluid main d-none d-lg-block">
         <div class="row no-gutters">
             <div class="col-6 brand d-flex flex-column justify-content-center align-items-center">
-                <img class="imageBrand img-fluid" src="public/vilarthePublic/images/logoFondoOscuro.png" alt="">
+                <img class="imageBrand img-fluid" src="<?= $server ?>public/vilarthePublic/images/logoFondoOscuro.png" alt="">
                 <div class="setCategories mt-5">
                     <ul class="categories ">
                         <li class="divider mb-2"> </li>
@@ -30,12 +40,12 @@
 
     <div class="container-fluid main d-block d-lg-none">
         <div class="row no-gutters">
-            <div class="col-12 brand d-flex flex-column justify-content-center align-items-center">
-                <img class="imageBrand img-fluid" src="public/vilarthePublic/images/logoFondoOscuro.png" alt="">
-                <div class="setCategories mt-5">
+            <div class="col-12 brand-small d-flex flex-column justify-content-center align-items-center">
+                <img class="imageBrand-small img-fluid" src="<?= $server ?>public/vilarthePublic/images/logoFondoOscuro.png" alt="">
+                <div class="setCategories-small mt-5">
                     <ul class="categories ">
                         <li class="divider mb-2"> </li>
-                        <li class="item active text-center "><a href="lazos/">Lazos</a></li>
+                        <li class="item-small active text-center "><a href="lazos/">Lazos</a></li>
                         <li class="divider mt-2"></li>
                     </ul>
                 </div>

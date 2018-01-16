@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
@@ -34,19 +33,56 @@ li{
     border-radius: 5px;
 }
 
-.item a:hover{
+.item-small a{
+    color: white;
+    font-size: 3em;
+    background-color: rgba(255,255,255,0.3);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.item a:hover, .item-small a:hover{
     text-decoration: none;
 }
 
 .brand{
-    background-image: url(../images/black.jpg);
+    background-image: url(../images/matiz.png);
     background-size: cover;
+    /*background: linear-gradient(to right, black 70%, white);*/
     height: 100vh;
-    z-index: 3;
+    z-index: 5;
+    position: relative;
+}
+
+.brand::after{
+    position: absolute;
+    content: '';
+    /*background-color: black;*/
+    /*background: linear-gradient(to right, black 0%, hsl(0, 80%, 89%) 100%, hsl(0, 50%, 100%) 60%);*/
+    background-image: url(../images/matiz.png);
+    background-size: cover;
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+    transform: translateX(10%) skewX(-9deg);
+}
+
+.brand-small{
+    background-image: url(../images/matiz.png);
+    background-size: cover;
+    /*background: linear-gradient(to right, black 70%, white);*/
+    height: 100vh;
+    z-index: 5;
+    position: relative;
 }
 
 .imageBrand{
     width: 70%;
+}
+
+.imageBrand-small{
+    width: 80%;
 }
 
 .divider{
@@ -58,6 +94,10 @@ li{
 
 .setCategories{
     width: 65%;
+}
+
+.setCategories-small{
+    width: 80%;
 }
 
 .categories{
