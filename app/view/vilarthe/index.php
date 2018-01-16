@@ -6,25 +6,40 @@
     <base href="" target="_self">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-    <link rel="stylesheet" href="public/vilarthePublic/css/styles.css">
+    <!--link rel="stylesheet" href="public/vilarthePublic/css/styles.css"-->
+    <link rel="stylesheet" href="public/vilarthePublic/css/sty.css">
 </head>
 <body>
-    <div class="brand">
-        <div class="">
-            <img class="imageBrand img-fluid" src="public/vilarthePublic/images/logoFondoOscuro.png" alt="">
-        </div>
-        <div class="setCategories">
-            <ul class="categories">
-                <li class="divider"> </li>
-                <li class="item active"><a href="lazos/">Lazos</a></li>
-                <li class="divider"></li>
-            </ul>
+    <div class="container-fluid main d-none d-lg-block">
+        <div class="row no-gutters">
+            <div class="col-6 brand d-flex flex-column justify-content-center align-items-center">
+                <img class="imageBrand img-fluid" src="public/vilarthePublic/images/logoFondoOscuro.png" alt="">
+                <div class="setCategories mt-5">
+                    <ul class="categories ">
+                        <li class="divider mb-2"> </li>
+                        <li class="item active text-center "><a href="lazos/">Lazos</a></li>
+                        <li class="divider mt-2"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-6 slider d-none d-lg-flex">
+            </div>
         </div>
     </div>
 
-    <div class="slider d-none d-lg-flex">
-        <div class="image img-fluid">
-            <img class="img-fluid" src="images/baby1.jpg" alt="">
+    <div class="container-fluid main d-block d-lg-none">
+        <div class="row no-gutters">
+            <div class="col-12 brand d-flex flex-column justify-content-center align-items-center">
+                <img class="imageBrand img-fluid" src="public/vilarthePublic/images/logoFondoOscuro.png" alt="">
+                <div class="setCategories mt-5">
+                    <ul class="categories ">
+                        <li class="divider mb-2"> </li>
+                        <li class="item active text-center "><a href="lazos/">Lazos</a></li>
+                        <li class="divider mt-2"></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 
