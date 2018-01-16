@@ -4,7 +4,7 @@ require_once __DIR__ . '/../core/Controller.php';
 
 class Core{
 
-    protected $controller = 'vilarthe';
+    protected $controller = 'Vilarthe';
     protected $method = 'index';
     protected $parameter = [];
 
@@ -37,7 +37,7 @@ class Core{
         $this->parameter = $url ? array_values($url) : [];
 
         if($this->parameter != []){
-            header("location:/vilarthe/lazos");
+            header("location:/Vilarthe/lazos");
         }
 
         call_user_func_array([$this->controller, $this->method], []);

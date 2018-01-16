@@ -50,7 +50,7 @@ input:focus{
     background-color: var(--colorPrimary);
     cursor: pointer;
     border: 2px solid white;
-    box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.46);
+    box-shadow: 0 0 11px 0 rgba(50, 50, 50, 0.46);
 }
 
 .Main-programs__title{
@@ -156,6 +156,7 @@ input:focus{
 
 /* Header */
 #Main-home{
+    margin-top: 88px;
     background: white;
     background-image: url("../img/imgBanner4.jpg");
     background-repeat: no-repeat;
@@ -168,14 +169,15 @@ input:focus{
 .jumbotron{
     background: transparent;
     position: relative;
-    height: 100vh;
+    height: 30vh;
+    margin-top: 88px;
 }
 
 
 /* Programs*/
 .card{
     margin-top: 10px;
-    box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.46);
+    box-shadow: 0 0 11px 0 rgba(50, 50, 50, 0.46);
 }
 
 /* Contact*/
@@ -284,6 +286,12 @@ input:focus{
     color: rgba(255,255,255,1);
 }
 
+.intro-text-small{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
 
 @media (min-width: 992px) {
 
@@ -294,6 +302,25 @@ input:focus{
         background-color: transparent;
     }
     */
+
+    #Main-home{
+        margin-top: 0;
+        background: white;
+        background-image: url("../img/imgBanner4.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+
+    }
+
+    .jumbotron{
+        background: transparent;
+        position: relative;
+        height: 100vh;
+        margin-top: 0;
+    }
+
     .Main-nav {
         padding-top: 25px;
         padding-bottom: 25px;
@@ -338,8 +365,9 @@ input:focus{
 
     /* Header */
     .intro-text{
-        margin-top: 300px;
-    }
+         margin-top: 300px;
+     }
+
 
     /* Programs */
     .card{
@@ -367,7 +395,7 @@ input:focus{
         width: 100%;
     }
 
-    /*Business Section*/
+    /*Comunnity Section*/
     #business{
        /* padding-top: 2rem;*/
         padding-bottom: 3rem;
@@ -382,14 +410,8 @@ input:focus{
     #business .col-md-6 {
         margin-top: 3.5em;
     }
-    #business .p{
-        font-size: 11px;
-    }
-    .img-onu{
-        margin-top: 3rem;
-        float: right;
-    }
-    
+
+
     footer{
         background-color: #f1f1f1;
         padding-top: 50px;
@@ -450,30 +472,32 @@ input:focus{
 
         /*Contact*/
 
-.single_contact_info{
-    padding-bottom: 21px;	
+    .single_contact_info{
+        padding-bottom: 21px;
     }
+
     .single_contact_info h2{
-    text-transform: uppercase;
-    color: #3d3d3d;
-    font-size: 18px;
-    letter-spacing: 3px;
-    margin-bottom: 1px;	
+        text-transform: uppercase;
+        color: #3d3d3d;
+        font-size: 18px;
+        letter-spacing: 3px;
+        margin-bottom: 1px;
     }
     .single_contact_info p{
-    font-size: 15px;
-    color: #3d3d3d;	
+        font-size: 15px;
+        color: #3d3d3d;
     }
     
     .contact-form{
-    background-color: #f1f1f1;
-    padding: 30px;
+        box-sizing: border-box;
+        background-color: #f1f1f1;
+        padding: 30px;
     }
     .contact-form .form-control{
-    height: 43px;
-    border-radius: 0px;
-    margin-bottom: 20px;
-    border: 0px solid #fff;
+        height: 43px;
+        border-radius: 0;
+        margin-bottom: 20px;
+        border: 0 solid #fff;
     }
     .contact-form #message{
         height: 104px;
