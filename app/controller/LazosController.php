@@ -26,6 +26,14 @@ class LazosController extends Controller {
         $this->view("lazos/index", "en");
     }
 
+    public function email($parameter = ''){
+        echo "Correo de mensaje";
+    }
+
+    /*public function login($parameter = ''){
+        $this->view("login/login");
+    }*/
+
     function getUserLanguage() {
         $idioma =substr($_SERVER["HTTP_ACCEPT_LANGUAGE"],0,2);
         return $idioma;

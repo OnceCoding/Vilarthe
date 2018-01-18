@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
+<html lang="es" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
-    <title>TI Cognitivas</title>
+    <title>Lazos</title>
     <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
 
-    <meta property="og:title" content="Lazos" />
-    <meta property="og:type" content="lazos.ropa de bebé" />
-    <meta property="og:url" content="http://www.vilarthe.com/lazos" />
-    <meta property="og:image" content="../public/lazosPublic/img/logoFondoClaroLetraGris2.png" />
+    <link rel="shortcut icon" type="image/png" href="/public/lazosPublic/img/icono_Lazos.ico"/>
+
+    <meta property="og:title" content="Lazos: Ropa de bebé hecha de algodón orgánico" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.vilarthe.com/lazos/es" />
+
+    <meta property="og:image" content="http://www.vilarthe.com/public/lazosPublic/img/Logo/lazos_open.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="700" />
+    <meta property="og:image:height" content="364" />
+    <meta property="og:image:alt" content="Logo de Lazos" />
+
+    <meta property="og:description" content="Lazos, empresa dedicada a la venta de conjuntos para bebé hechas con algodón orgánico">
+
+    <meta name="author" content="Lazos">
+    <meta name="classification" content="all">
+    <meta name="description" content="Lazos, empresa dedicada a la venta de conjuntos para bebé hechas con algodón orgánico">
+    <meta name="keywords" content="cotton, clothes, vilarthe, lazos, babys">
+
 
     <link rel="stylesheet" href="../public/libraries/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -152,7 +167,7 @@
                 <div class="col-10 offset-1 offset-md-0 col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <img src="../public/lazosPublic/img/imgConjunto1.png" class="card-img" alt="">
+                            <img src="../public/lazosPublic/img/imgConjunto1.PNG" class="card-img" alt="">
                             <h4 class="card-title mt-3 text-center"> Conjunto 1 </h4>
                         </div>
                     </div>
@@ -221,13 +236,13 @@
                                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
-                                        <img class="d-block img-fluid" src="../public/lazosPublic/img/algodon.jpg" alt="First slide">
+                                        <img class="d-block img-fluid" src="../public/lazosPublic/img/algodon.JPG" alt="First slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block img-fluid" src="../public/lazosPublic/img/algodon.jpg" alt="Second slide">
+                                        <img class="d-block img-fluid" src="../public/lazosPublic/img/algodon.JPG" alt="Second slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block img-fluid" src="../public/lazosPublic/img/algodon.jpg" alt="Third slide">
+                                        <img class="d-block img-fluid" src="../public/lazosPublic/img/algodon.JPG" alt="Third slide">
                                     </div>
                                     </div>
                                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -298,13 +313,13 @@
                     <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                                <img class="d-block img-fluid" src="../public/lazosPublic/img/algodon.jpg" alt="First slide">
+                                <img class="d-block img-fluid" src="../public/lazosPublic/img/algodon.JPG" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="../public/lazosPublic/img/algodon.jpg" alt="Second slide">
+                                <img class="d-block img-fluid" src="../public/lazosPublic/img/algodon.JPG" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="../public/lazosPublic/img/algodon.jpg" alt="Third slide">
+                                <img class="d-block img-fluid" src="../public/lazosPublic/img/algodon.JPG" alt="Third slide">
                             </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
@@ -384,7 +399,7 @@
                 </div>
 
                 <div class="col-10 offset-1 offset-sm-0 col-sm-12 col-md-9 ">
-                    <form action="/Vilarthe/Lazos/en/enviar" method="post" class="contact-form">
+                    <form action="/lazos/email" method="post" class="contact-form">
                         <div class="row">
                             <div class="col-md-6">
                                 <input type="text" class="form-control" id="from" name="from" placeholder="Name" required>
@@ -441,9 +456,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-10 offset-1 offset-md-0  col-md-12 text-center">
-                        <div class="copyright_text   wow fadeInUp animated">
-                            <p>Copyright © 2018 - Vilarthe. All rights reserved.</p>
-                            <p>&copy; Developed By <a href="http://www.teslatech.pe" target="_blank">Tesla Tech</a></p>
+                        <div class="copyright_text">
+                            <p>Copyright © <?= date("Y") ?> - Vilarthe. All rights reserved.</p>
+                            <p>&copy; Developed By <a href="http://www.ticognitivas.com" target="_blank">TIcognitivas</a></p>
                         </div>
                     </div>
                 </div>

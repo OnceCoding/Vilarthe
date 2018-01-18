@@ -37,7 +37,7 @@ class Core{
         $this->parameter = $url ? array_values($url) : [];
 
         if($this->parameter != []){
-            header("location:/Vilarthe/lazos");
+            header("location:/lazos");
         }
 
         call_user_func_array([$this->controller, $this->method], []);

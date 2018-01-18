@@ -158,7 +158,7 @@ input:focus{
 #Main-home{
     margin-top: 88px;
     background: white;
-    background-image: url("../img/imgBanner4.jpg");
+    background-image: url("../img/imgBanner4_tiny.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -306,7 +306,7 @@ input:focus{
     #Main-home{
         margin-top: 0;
         background: white;
-        background-image: url("../img/imgBanner4.jpg");
+        background-image: url("../img/resources/imgBanner4.jpg");
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position: center center;

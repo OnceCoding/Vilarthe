@@ -1,19 +1,39 @@
 <?php
 
     #onHosting
-    #$server = "/";
+    $server = "/";
 
     #onLocalHost
-    $server = "";
+    #$server = "";
 
 ?>
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
-    <title>Vilathe</title>
+    <title>Vilarthe</title>
+
+    <link rel="shortcut icon" type="image/png" href="<?= $server ?>public/vilarthePublic/images/icono_Vilarthe.ico"/>
+
+    <meta property="og:title" content="Vilarthe : Clothing " />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.vilarthe.com/public/" />
+
+    <meta property="og:image" content="http://www.vilarthe.com/public/vilarthePublic/images/open.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="504" />
+    <meta property="og:image:height" content="225" />
+    <meta property="og:image:alt" content="Logo de Vilarthe" />
+
+    <meta property="og:description" content="Vilarthe es una empresa que se dedica a la venta de ropa con algodón organico">
+
+    <meta name="author" content="Vilarthe">
+    <meta name="classification" content="all">
+    <meta name="description" content="Vilarthe es una empresa que se dedica a la venta de ropa con algodón organico">
+    <meta name="keywords" content="cotton, clothes, vilarthe, lazos, babys">
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <!--link rel="stylesheet" href="public/vilarthePublic/css/styles.css"-->
@@ -23,7 +43,7 @@
     <div class="container-fluid main d-none d-lg-block">
         <div class="row no-gutters">
             <div class="col-6 brand d-flex flex-column justify-content-center align-items-center">
-                <img class="imageBrand img-fluid" src="<?= $server ?>public/vilarthePublic/images/logoFondoOscuro.png" alt="">
+                <img class="imageBrand img-fluid" src="<?= $server ?>public/vilarthePublic/images/logoFondoOscuro_tiny.png" alt="">
                 <div class="setCategories mt-5">
                     <ul class="categories ">
                         <li class="divider mb-2"> </li>
