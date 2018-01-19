@@ -1,16 +1,13 @@
 <IfModule mod_rewrite.c>
     Options -Multiviews
-    RewriteEngine on
+    RewriteEngine On
 
-    #localhost
-    #RewriteBase /Vilarthe/public/
-
-    #hositng
     RewriteBase /public
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
 
-    #ErrorDocument 404 /Vilarthe/Error404.php
+    #RewriteCond %{HTTPS} off
+    #RewriteRule ^(.*)$ https://www.vilarthe.com
 
 </IfModule>

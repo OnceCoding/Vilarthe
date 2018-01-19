@@ -27,7 +27,7 @@ class LazosController extends Controller {
     }
 
     public function email($parameter = ''){
-        echo "Correo de mensaje";
+        require_once __DIR__ . '/../model/Mail.php';
     }
 
     /*public function login($parameter = ''){
