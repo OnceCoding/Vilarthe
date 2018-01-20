@@ -72,28 +72,34 @@ $(function () {
             success: function (response) {
                 //alert(response);
                 if (response === "true"){
-                    swal(
-                        'Mensaje Enviado!',
-                        'se envio el emnsaje',
-                        'success'
-                    );
+                    swal({
+                        title: 'Mensaje Enviado',
+                        text: "",
+                        type: 'success',
+                        confirmButtonColor: '#E19D9D',
+                        confirmButtonText: 'Aceptar'
+                    });
                     //console.log("se envio sms");
                 }
                 else{
-                    swal(
-                        'Mensaje no Enviado!',
-                        'hubo un error',
-                        'error'
-                    );
+                    swal({
+                        title: 'Mensaje No Enviado',
+                        text: "",
+                        type: 'error',
+                        confirmButtonColor: '#E19D9D',
+                        confirmButtonText: 'Aceptar'
+                    });
                     //console.log("no se pudo enviar envio sms");
                 }
             },
             error: function () {
-                swal(
-                    'Mensaje No Enviado!',
-                    'hubo un error en el envio',
-                    'error'
-                );
+                swal({
+                    title: 'Mensaje No Enviado',
+                    text: "",
+                    type: 'error',
+                    confirmButtonColor: '#E19D9D',
+                    confirmButtonText: 'Aceptar'
+                });
                 console.log("error al de envio sms");
             }
         });
