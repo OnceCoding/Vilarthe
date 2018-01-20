@@ -454,7 +454,7 @@ input:focus{
         border-color:#E19E9E; 
     }
     .copyright_text{
-    padding-top: 80px;	
+        padding-top: 80px;
     }
     .copyright_text p{
     color: #636363;
@@ -465,10 +465,10 @@ input:focus{
     }
     .copyright_text a{
         color:#E19E9E;
-        text-transform:uppercase;
         font-weight:700;
         text-decoration:none;
-        }
+        text-transform: none;
+    }
 
         /*Contact*/
 
@@ -505,7 +505,7 @@ input:focus{
     .form_submit{
     width: 100%;
     background: #E19E9E;
-    border-radius: 0px;
+    border-radius: 0;
     color: #fff;
     padding-top: 13px;
     padding-bottom: 10px;

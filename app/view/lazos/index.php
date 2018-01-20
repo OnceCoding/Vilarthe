@@ -39,7 +39,7 @@
     <nav class="navbar navbar-expand-lg  fixed-top Main-nav" id="Main-nav">
 
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger scroll" href="#top-page"> <img src="../public/lazosPublic/img/logo8.png"> </a>
+            <a class="navbar-brand js-scroll-trigger scroll" href="#top-page"> <img src="/public/lazosPublic/img/logo8.png"> </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -167,7 +167,7 @@
                 <div class="col-10 offset-1 offset-md-0 col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <img src="../public/lazosPublic/img/imgConjunto1.PNG" class="card-img" alt="">
+                            <img src="/public/lazosPublic/img/imgConjunto1.PNG" class="card-img" alt="">
                             <h4 class="card-title mt-3 text-center"> Conjunto 1 </h4>
                         </div>
                     </div>
@@ -175,7 +175,7 @@
                 <div class="col-10 offset-1 offset-md-0 col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <img src="../public/lazosPublic/img/imgConjunto2.PNG" class="card-img" alt="">
+                            <img src="/public/lazosPublic/img/imgConjunto2.PNG" class="card-img" alt="">
                             <h4 class="card-title mt-3 text-center"> Conjunto 2 </h4>
                         </div>
                     </div>
@@ -183,7 +183,7 @@
                 <div class="col-10 offset-1 offset-md-0 col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <img src="../public/lazosPublic/img/imgConjunto3.PNG" class="card-img" alt="">
+                            <img src="/public/lazosPublic/img/imgConjunto3.PNG" class="card-img" alt="">
                             <h4 class="card-title mt-3 text-center"> Conjunto 3 </h4>
                         </div>
                     </div>
@@ -194,7 +194,7 @@
                     <div class="col-10 offset-1 offset-md-0 col-md-4">
                         <div class="card">
                             <div class="card-body">
-                                <img src="../public/lazosPublic/img/imgConjunto1.PNG" class="card-img" alt="">
+                                <img src="/public/lazosPublic/img/imgConjunto1.PNG" class="card-img" alt="">
                                 <h4 class="card-title mt-3 text-center"> Conjunto 1 </h4>
                             </div>
                         </div>
@@ -202,7 +202,7 @@
                     <div class="col-10 offset-1 offset-md-0 col-md-4">
                         <div class="card">
                             <div class="card-body">
-                                <img src="../public/lazosPublic/img/imgConjunto2.PNG" class="card-img" alt="">
+                                <img src="/public/lazosPublic/img/imgConjunto2.PNG" class="card-img" alt="">
                                 <h4 class="card-title mt-3 text-center"> Conjunto 2 </h4>
                             </div>
                         </div>
@@ -210,7 +210,7 @@
                     <div class="col-10 offset-1 offset-md-0 col-md-4">
                         <div class="card">
                             <div class="card-body">
-                                <img src="../public/lazosPublic/img/imgConjunto3.PNG" class="card-img" alt="">
+                                <img src="/public/lazosPublic/img/imgConjunto3.PNG" class="card-img" alt="">
                                 <h4 class="card-title mt-3 text-center"> Conjunto 3 </h4>
                             </div>
                         </div>
@@ -236,13 +236,13 @@
                                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
-                                        <img class="d-block img-fluid" src="../public/lazosPublic/img/algodon.JPG" alt="First slide">
+                                        <img class="d-block img-fluid" src="/public/lazosPublic/img/algodon.JPG" alt="First slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block img-fluid" src="../public/lazosPublic/img/algodon.JPG" alt="Second slide">
+                                        <img class="d-block img-fluid" src="/public/lazosPublic/img/algodon.JPG" alt="Second slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block img-fluid" src="../public/lazosPublic/img/algodon.JPG" alt="Third slide">
+                                        <img class="d-block img-fluid" src="/public/lazosPublic/img/algodon.JPG" alt="Third slide">
                                     </div>
                                     </div>
                                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -313,13 +313,13 @@
                     <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                                <img class="d-block img-fluid" src="../public/lazosPublic/img/algodon.JPG" alt="First slide">
+                                <img class="d-block img-fluid" src="/public/lazosPublic/img/algodon.JPG" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="../public/lazosPublic/img/algodon.JPG" alt="Second slide">
+                                <img class="d-block img-fluid" src="/public/lazosPublic/img/algodon.JPG" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="../public/lazosPublic/img/algodon.JPG" alt="Third slide">
+                                <img class="d-block img-fluid" src="/public/lazosPublic/img/algodon.JPG" alt="Third slide">
                             </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
@@ -338,13 +338,13 @@
         <div class="container onu mt-5">
             <div class="row">
                 <div class="col-2 offset-3">
-                    <img class="img-fluid" src="../public/lazosPublic/img/desarrolloSostenible.jpg" alt="desarrollo sostenible">
+                    <img class="img-fluid" src="/public/lazosPublic/img/desarrolloSostenible.jpg" alt="desarrollo sostenible">
                 </div>
                 <div class="col-2">
-                    <img class="img-fluid" src="../public/lazosPublic/img/ecosistema.jpg" alt="ecosistema">
+                    <img class="img-fluid" src="/public/lazosPublic/img/ecosistema.jpg" alt="ecosistema">
                 </div>
                 <div class="col-2">
-                    <img class="img-fluid" src="../public/lazosPublic/img/igualdadGenero.jpg" alt="First slide">
+                    <img class="img-fluid" src="/public/lazosPublic/img/igualdadGenero.jpg" alt="First slide">
                 </div>
             </div>
         </div>
@@ -370,13 +370,13 @@
             <div class="row justify-content-center">
                 <div class="col-12 d-block d-md-none ">
                     <div class="text-center mt-4 mt-sm-0">
-                        <p class="">Call Me : +51 970 505 255</p>
+                        <p class="">Teléfono : +51 970 505 255</p>
                     </div>
                     <div class="text-center">
-                        <p>Email Me : info@vilarthe.co</p>
+                        <p>Correo : info@vilarthe.co</p>
                     </div>
                     <div class=" text-center">
-                        <p>Address : Chiclayo, Perú</p>
+                        <p>Dirección : Chiclayo, Perú</p>
                     </div>
                 </div>
             </div>
@@ -385,15 +385,15 @@
             <div class="row">
                 <div class="col-10 offset-1 offset-sm-0 col-sm-12 col-md-3  d-none d-md-block">
                     <div class="single_contact_info" style="padding-top: 20px;">
-                        <h2 class="">Call Me</h2>
+                        <h2 class="">Teléfono</h2>
                         <p style="text-align: center;">+51 970 505 255</p>
                     </div>
                     <div class="single_contact_info">
-                        <h2>Email Me</h2>
+                        <h2>Correo</h2>
                         <p style="text-align: center;">info@vilarthe.com</p>
                     </div>
                     <div class="single_contact_info">
-                        <h2>Address</h2>
+                        <h2>Dirección</h2>
                         <p style="text-align: center;">Chiclayo, Perú</p>
                     </div>
                 </div>
@@ -434,7 +434,7 @@
                 <div class="row">
                     <div class="col-8 offset-2 offset-md-0 col-md-12 text-center">
                         <div class="footer_logo   wow fadeInUp animated">
-                            <img class="img-fluid" src="../public/lazosPublic/img/logoFondoClaroLetraGris.png" >
+                            <img class="img-fluid" src="/public/lazosPublic/img/logoFondoClaroLetraGris.png" >
                         </div>
                     </div>
                 </div>

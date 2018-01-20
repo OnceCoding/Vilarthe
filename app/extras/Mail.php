@@ -23,6 +23,17 @@ if(isset($_POST['name']) && isset($_POST['phone']) && isset($_POST['email']) && 
     $header.= 'From: ' . $name .' <' . $from . '>' . "\r\n";
 
     mail($to, $title, $message, $header);
+
+    //se le envia un email al cliente como respuesta
+
+    $title = 'Lazos';
+    $message = '';
+    $header = 'Content-type: text/html; charset=utf-8' . "\r\n";
+    $header.= 'To: ' . $name .'<' . $from . '>' . "\r\n";
+    $header.= 'From: Lazos<' . $to . '>' . "\r\n";
+
+    mail($from, $title, $message, $header);
+
     return print(json_encode("true"));
 }
 else{
