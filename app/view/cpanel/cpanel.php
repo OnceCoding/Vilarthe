@@ -141,8 +141,8 @@
                                                 Este apartado te permite modificar, eliminar o agregar nuevos productos. Los campos requeridos para cada producto son Nombre, Descripción, y lista de imagenes, se sugieren que sea un total de 51 imágenes para poder lograr la rotación.
                                             </p>
                                         
-                                            <button type="button" class="btn btn-primary btn-lg btn-block"><a href="products.php" style="color:white;">Sección Productos</a></button>
-                                        
+                                            <button type="button" class="btn btn-primary btn-lg btn-block"><a href="/cpanel/products" style="color:white;">Sección Productos</a></button>
+
 
                                         </div>
                                     </div>
@@ -162,7 +162,7 @@
                                             <p>
                                                 Este apartado te permite modificar, eliminar o agregar nuevos artículos sobre Proyectos Sociales. Los campos requeridos para cada artículo son Título, Descripción, y lista de imagenes, se sugieren que sea un total de 3 imágenes para poder lograr un buen efecto.
                                             </p>
-                                            <button type="button" class="btn btn-primary btn-lg btn-block"><a href="projects.php" style="color:white;">Sección Proyectos</a></button>
+                                            <button type="button" class="btn btn-primary btn-lg btn-block"><a href="/cpanel/projects" style="color:white;">Sección Proyectos</a></button>
                                         </div>
                                     </div>
                                 </div>
@@ -176,11 +176,11 @@
 
     </div><!-- body-row END -->
 
-    <script src="../public/cpanelPublic/library/bootstrap/js/jquery-3.1.0.min.js"></script>
-    <script src="../public/cpanelPublic/library/bootstrap/js/popper.min.js"></script>
-    <script src="../public/cpanelPublic/library/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../public/cpanelPublic/js/main.js"></script>
-    <script src="../public/cpanelPublic/js/dropzone.js"></script>
+    <script src="/public/cpanelPublic/library/bootstrap/js/jquery-3.1.0.min.js"></script>
+    <script src="/public/cpanelPublic/library/bootstrap/js/popper.min.js"></script>
+    <script src="/public/cpanelPublic/library/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/public/cpanelPublic/js/main.js"></script>
+    <script src="/public/cpanelPublic/js/dropzone.js"></script>
     
 </body>
 </html>

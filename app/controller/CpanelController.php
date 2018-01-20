@@ -15,7 +15,15 @@ class CpanelController extends Controller {
     }
 
     public function products_operations(){
+        $this->view("cpanel/products_operations");
+    }
 
+    public function projects(){
+        $this->view("cpanel/projects");
+    }
+
+    public function projects_operations(){
+        $this->view("cpanel/projects_operations");
     }
 
 }

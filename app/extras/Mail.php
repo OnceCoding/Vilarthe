@@ -1,20 +1,32 @@
 <?php
 
-try{
+header('Content-type: application/json'); // importanto to return json files
+
+
+if(isset($_POST['name']) && isset($_POST['phone']) && isset($_POST['email']) && isset($_POST['message'])){
+
     $to = 'jose95sp@outlook.com';
 
-    $name = $_POST['name'];
-    $phone = $_POST['phone'];
-    $from = $_POST['email'];
-    $title = 'Consulta';
-    $message = $_POST['message'] . "\r\n" . 'Mi número de telefono es ' . $phone;
-    $header = 'From: ' . $from . "\r\n" .
-        'Reply-To: ' . $to . "\r\n";
+    $name = filter_var(trim($_POST['name']), FILTER_SANITIZE_STRING);
+    $phone = filter_var(trim($_POST['phone']), FILTER_SANITIZE_STRING);
+    $from = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
+    $message = filter_var(trim($_POST['message']), FILTER_SANITIZE_STRING);
+
+    if(!filter_var($from, FILTER_VALIDATE_EMAIL)){
+        return print(json_encode("false"));
+    }
+
+    $title = 'Consulta de Lazos';
+    $message = $message . "\r\n" . 'Mi telefono es ' . $phone;
+    $header = 'Content-type: text/html; charset=utf-8' . "\r\n";
+    $header.= 'To: Eduardo <'. $to .'>' . "\r\n";
+    $header.= 'From: ' . $name .' <' . $from . '>' . "\r\n";
 
     mail($to, $title, $message, $header);
-
-}catch (Exception $e){
-    echo "ocurrio un error" . $e;
+    return print(json_encode("true"));
+}
+else{
+  return print(json_encode("false"));
 }
 
 

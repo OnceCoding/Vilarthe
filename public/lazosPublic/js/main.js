@@ -51,7 +51,56 @@ $(function () {
 
     });
 
+    //email
 
+    $(".contact-form").bind("submit", function () {
+        //console.log($(this).attr('action'));
+        $.ajax({
+            type : $(this).attr('method'),
+            url : $(this).attr('action'),
+            data : $(this).serialize(),
+            beforeSend : function () {
+                swal({
+                    text : 'Enviando mensaje a Lazos',
+                    timer : 3000,
+                    onOpen : function () {
+                        swal.showLoading();
+                    }
+                });
+                //console.log("enviando");
+            },
+            success: function (response) {
+                //alert(response);
+                if (response === "true"){
+                    swal(
+                        'Mensaje Enviado!',
+                        'se envio el emnsaje',
+                        'success'
+                    );
+                    //console.log("se envio sms");
+                }
+                else{
+                    swal(
+                        'Mensaje no Enviado!',
+                        'hubo un error',
+                        'error'
+                    );
+                    //console.log("no se pudo enviar envio sms");
+                }
+            },
+            error: function () {
+                swal(
+                    'Mensaje No Enviado!',
+                    'hubo un error en el envio',
+                    'error'
+                );
+                console.log("error al de envio sms");
+            }
+        });
+
+        return false;
+
+    });
 
 });
 

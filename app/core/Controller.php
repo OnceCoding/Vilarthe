@@ -26,7 +26,7 @@ class Controller{
             require_once __DIR__ . '/../model/' . $method . '.php';
         }
         else{
-            die("La vista no existe");
+            die("el metodo no existe");
         }
 
     }
@@ -38,6 +38,17 @@ class Controller{
         }
         else{
             die("La vista no existe");
+        }
+
+    }
+
+    public function extras($extra, $data = []){
+
+        if(file_exists(__DIR__ . '/../extras/' . $extra . '.php')){
+            require_once __DIR__ . '/../extras/' . $extra . '.php';
+        }
+        else{
+            die("El extra no existe");
         }
 
     }

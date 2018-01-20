@@ -25,13 +25,13 @@
     <meta name="keywords" content="cotton, clothes, vilarthe, lazos, babys">
 
 
-    <link rel="stylesheet" href="../public/libraries/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/libraries/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="../public/lazosPublic/css/style.css">
-    <link rel="stylesheet" href="../public/fonts/css/fb.css">
+    <link rel="stylesheet" href="/public/lazosPublic/css/style.css">
+    <link rel="stylesheet" href="/public/fonts/css/fb.css">
 
 </head>
 <body id="top-page">
@@ -402,13 +402,13 @@
                     <form action="/lazos/email" method="post" class="contact-form">
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" class="form-control" id="from" name="from" placeholder="Name" required>
-                                <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
-                                <input type="number" class="form-control" id="phone" name="phone" placeholder="Phone" required>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required title="Ingrese su nombre">
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Correo" required>
+                                <input type="number" class="form-control" id="phone" name="phone" placeholder="Teléfono" required>
                             </div>
                             <div class="col-md-6">
-                                <textarea class="form-control" id="message" name="message" rows="25" cols="10" placeholder="  Message Texts..." required></textarea>
-                                <input type="submit" class="btn btn-default submit-btn form_submit" name="Send" value="Send">
+                                <textarea class="form-control" id="message" name="message" rows="25" cols="10" placeholder="  Mensaje..." required></textarea>
+                                <input type="submit" class="btn btn-default submit-btn form_submit" name="submit" value="Enviar">
                                 <!-- <button type="button" class="btn btn-default submit-btn form_submit">SEND MESSAGE</button>   -->
                             </div>
                         </div>
@@ -466,12 +466,13 @@
         </div>
     </footer>
 
-    <script src="../public/libraries/js/jquery-3.2.1.min.js"></script>
+    <script src="/public/libraries/js/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <!--script src="public/libraries/js/popper.min.js"></script-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="../public/libraries/js/bootstrap.min.js"></script>
-    <script src="../public/lazosPublic/js/main.js"></script>
+    <script src="/public/libraries/js/bootstrap.min.js"></script>
+    <script src="/public/libraries/js/sweetAlert2.js"></script>
+    <script src="/public/lazosPublic/js/main.js"></script>
 
     <!--script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script!-->

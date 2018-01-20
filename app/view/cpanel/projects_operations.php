@@ -62,10 +62,10 @@
                 </a>
                 <!-- Submenu content -->
                 <div id='submenu1' class="collapse sidebar-submenu">
-                    <a href="../index.html#Lazos-Secciones" class="list-group-item list-group-item-action bg-dark text-white">
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
                         <span class="menu-collapsed">Productos</span>
                     </a>
-                    <a href="../index.html#Lazos-Secciones" class="list-group-item list-group-item-action bg-dark text-white">
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
                         <span class="menu-collapsed">Proyectos Sociales</span>
                     </a>
                 </div>

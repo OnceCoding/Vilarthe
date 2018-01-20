@@ -27,12 +27,9 @@ class LazosController extends Controller {
     }
 
     public function email($parameter = ''){
-        require_once __DIR__ . '/../model/Mail.php';
+        $this->extras("Mail");
+        //require_once __DIR__ . '/../extras/Mail.php';
     }
-
-    /*public function login($parameter = ''){
-        $this->view("login/login");
-    }*/
 
     function getUserLanguage() {
         $idioma =substr($_SERVER["HTTP_ACCEPT_LANGUAGE"],0,2);

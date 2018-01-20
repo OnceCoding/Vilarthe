@@ -21,8 +21,8 @@
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand"  href="../cpanel.html">
-            <img src="../public/cpanelPublic/img/logoFondoOscuro_h56px.png" alt="">
+        <a class="navbar-brand"  href="cpanel.php">
+            <img src="/public/cpanelPublic/img/logoFondoOscuro_h56px.png" alt="">
         </a>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <div class="container-fluid">
