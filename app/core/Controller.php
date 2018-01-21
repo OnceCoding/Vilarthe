@@ -9,7 +9,7 @@ class Controller{
     }
     */
 
-    public function view($view, $data = []){
+    public function view($view, $data = ''){
 
         if(file_exists(__DIR__ . '/../view/' . $view . '.php')){
             require_once __DIR__ . '/../view/' . $view . '.php';
@@ -20,7 +20,7 @@ class Controller{
 
     }
 
-    public function method($method, $data = []){
+    public function method($method, $data = ''){
         //print_r($_POST);
         if(file_exists(__DIR__ . '/../model/' . $method . '.php')){
             require_once __DIR__ . '/../model/' . $method . '.php';
@@ -31,7 +31,7 @@ class Controller{
 
     }
 
-    public function model($model, $data = []){
+    public function model($model, $data = ''){
 
         if(file_exists(__DIR__ . '/../model/' . $model . '.php')){
             require_once __DIR__ . '/../model/' . $model . '.php';
@@ -42,7 +42,7 @@ class Controller{
 
     }
 
-    public function extras($extra, $data = []){
+    public function extras($extra, $data = ''){
 
         if(file_exists(__DIR__ . '/../extras/' . $extra . '.php')){
             require_once __DIR__ . '/../extras/' . $extra . '.php';

@@ -19,11 +19,11 @@ class LazosController extends Controller {
     }
 
     public function es($parameter = ''){
-        $this->view("lazos/index" ,"es");
+        $this->view("lazos/es/index" ,"es");
     }
 
     public function en($parameter = ''){
-        $this->view("lazos/index", "en");
+        $this->view("lazos/en/index", "en");
     }
 
     public function email($parameter = ''){

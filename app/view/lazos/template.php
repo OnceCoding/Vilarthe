@@ -39,7 +39,7 @@
     <nav class="navbar navbar-expand-lg  fixed-top Main-nav" id="Main-nav">
 
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger scroll" href="#top-page"> <img src="/public/lazosPublic/img/logo8.png"> </a>
+            <a class="navbar-brand js-scroll-trigger scroll" href="#top-page"> <img src="/public/lazosPublic/img/logoFinal.png"> </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
