@@ -402,10 +402,8 @@ input:focus{
     }
     
     .mu-business-content{
+        display: block;
         text-align: justify;
-        display: inline;
-        float: left;
-        width: 100%;
     }
     #business .col-md-6 {
         margin-top: 3.5em;

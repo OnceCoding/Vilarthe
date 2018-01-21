@@ -2,12 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca93eb97-7105-44b0-be84-cbfd51660aca" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/css/instagram-codes.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/css/instagram-embedded.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font/instagram.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font/instagram.woff2" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/extras/Mail.php" afterPath="$PROJECT_DIR$/app/extras/Mail.php" />
-      <change beforePath="$PROJECT_DIR$/app/view/lazos/en/index.php" afterPath="$PROJECT_DIR$/app/view/lazos/en/index.php" />
-      <change beforePath="$PROJECT_DIR$/app/view/lazos/es/index.php" afterPath="$PROJECT_DIR$/app/view/lazos/es/index.php" />
       <change beforePath="$PROJECT_DIR$/app/view/lazos/index.php" afterPath="$PROJECT_DIR$/app/view/lazos/index.php" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/css/fb-codes.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/css/fb-embedded.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/css/fb-ie7-codes.css" afterPath="$PROJECT_DIR$/public/fonts/css/instagram-ie7-codes.css" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/css/fb-ie7.css" afterPath="$PROJECT_DIR$/public/fonts/css/instagram-ie7.css" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/css/fb.css" afterPath="$PROJECT_DIR$/public/fonts/css/instagram.css" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/font/fb.eot" afterPath="$PROJECT_DIR$/public/fonts/font/instagram.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/font/fb.svg" afterPath="$PROJECT_DIR$/public/fonts/font/instagram.svg" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/font/fb.ttf" afterPath="$PROJECT_DIR$/public/fonts/font/instagram.eot" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/font/fb.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/font/fb.woff2" afterPath="" />
       <change beforePath="$PROJECT_DIR$/public/lazosPublic/css/style.css" afterPath="$PROJECT_DIR$/public/lazosPublic/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/Logo/Lazos1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/Logo/Lazos2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/algodon.JPG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/banner_dark1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/desarrolloSostenible.jpg" afterPath="$PROJECT_DIR$/public/lazosPublic/img/onu_desarrolloSostenible.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/ecosistema.jpg" afterPath="$PROJECT_DIR$/public/lazosPublic/img/onu_ecosistema.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/igualdadGenero.jpg" afterPath="$PROJECT_DIR$/public/lazosPublic/img/onu_igualdadGenero.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/imgBabyBanner.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/imgBanner1.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/imgBanner1_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/imgBanner2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/imgBanner3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/imgContact.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/imgHeader.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/imgPeople.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/imgProduct2.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/imgProduct3.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/imgStudent.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/imgStudents.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/imgWomen.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/nosotros.png" afterPath="$PROJECT_DIR$/public/lazosPublic/img/nosotros.png" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,21 +63,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/view/lazos/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="9" column="88" lean-forward="true" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+            <state relative-caret-position="1188">
+              <caret line="318" column="43" lean-forward="false" selection-start-line="318" selection-start-column="43" selection-end-line="318" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mail.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/extras/Mail.php">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/lazosPublic/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="208">
+              <caret line="388" column="5" lean-forward="false" selection-start-line="388" selection-start-column="5" selection-end-line="388" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -122,9 +154,9 @@
         <option value="$PROJECT_DIR$/app/controller/LazosController.php" />
         <option value="&lt;0f53299f-0437-4389-a227-3a686ff85bad&gt;/app/extras/Mail.php" />
         <option value="$PROJECT_DIR$/public/lazosPublic/js/main.js" />
-        <option value="$PROJECT_DIR$/app/view/lazos/index.php" />
-        <option value="$PROJECT_DIR$/public/lazosPublic/css/style.css" />
         <option value="$PROJECT_DIR$/app/extras/Mail.php" />
+        <option value="$PROJECT_DIR$/public/lazosPublic/css/style.css" />
+        <option value="$PROJECT_DIR$/app/view/lazos/index.php" />
       </list>
     </option>
   </component>
@@ -241,7 +273,7 @@
               <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="lazosPublic" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -290,19 +322,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Vilarthe\public\fonts" />
+      <recent name="C:\xampp\htdocs\Vilarthe\app\view\lazos\es" />
+      <recent name="C:\xampp\htdocs\Vilarthe\app\view\lazos\en" />
+      <recent name="C:\xampp\htdocs\Vilarthe\app\controller" />
+      <recent name="C:\xampp\htdocs\Vilarthe\app\view\panelControl" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\Vilarthe\app\extras" />
       <recent name="C:\xampp\htdocs\Vilarthe\app" />
       <recent name="C:\xampp\htdocs\Vilarthe\public\lazosPublic\img" />
       <recent name="C:\xampp\htdocs\Vilarthe\public\lazosPublic\img\resources" />
       <recent name="C:\xampp\htdocs\Vilarthe\public\vilarthePublic\images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Vilarthe\app\view\lazos\es" />
-      <recent name="C:\xampp\htdocs\Vilarthe\app\view\lazos\en" />
-      <recent name="C:\xampp\htdocs\Vilarthe\app\controller" />
-      <recent name="C:\xampp\htdocs\Vilarthe\app\view\panelControl" />
-      <recent name="C:\xampp\htdocs\Vilarthe\public\panelControlPublic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -353,12 +385,12 @@
       <workItem from="1516312266471" duration="18314000" />
       <workItem from="1516399004411" duration="215000" />
       <workItem from="1516399390511" duration="22744000" />
-      <workItem from="1516471032289" duration="533000" />
+      <workItem from="1516471032289" duration="13426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165538000" />
+    <option name="totallyTimeSpent" value="178431000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,7 +406,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20121029" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18532526" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14977308" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -407,21 +439,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/lazosPublic/img/algodon.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/lazosPublic/img/imgBanner1_1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/lazosPublic/img/imgBanner2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/lazosPublic/img/resources/imgBanner4.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -707,25 +724,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/extras/Mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="34" column="43" lean-forward="false" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lazosPublic/img/algodon.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/fonts/css/animation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/libraries/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="5" column="97192" lean-forward="false" selection-start-line="5" selection-start-column="97192" selection-end-line="5" selection-end-column="97192" />
+          <folding>
+            <element signature="e#59229#59429#2" expanded="true" />
+            <element signature="e#59637#59786#2" expanded="true" />
+            <element signature="e#60038#60184#2" expanded="true" />
+            <element signature="e#60366#60532#1" expanded="true" />
+            <element signature="e#71256#71499#2" expanded="true" />
+            <element signature="e#72366#72615#2" expanded="true" />
+            <element signature="e#99752#99942#2" expanded="true" />
+            <element signature="e#99988#100178#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/lazosPublic/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="470" column="4" lean-forward="false" selection-start-line="470" selection-start-column="4" selection-end-line="470" selection-end-column="4" />
+        <state relative-caret-position="208">
+          <caret line="388" column="5" lean-forward="false" selection-start-line="388" selection-start-column="5" selection-end-line="388" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/lazos/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="9" column="88" lean-forward="true" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/extras/Mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="1188">
+          <caret line="318" column="43" lean-forward="false" selection-start-line="318" selection-start-column="43" selection-end-line="318" selection-end-column="43" />
           <folding />
         </state>
       </provider>

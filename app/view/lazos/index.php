@@ -5,7 +5,7 @@
     <title>Lazos</title>
     <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
 
-    <link rel="shortcut icon" type="image/png" href="/public/lazosPublic/img/icono_Lazos.ico"/>
+    <link rel="shortcut icon" type="image/png" href="/public/lazosPublic/img/icon.png"/>
 
     <meta property="og:title" content="Lazos: Ropa de bebé hecha de algodón orgánico" />
     <meta property="og:type" content="website" />
@@ -31,7 +31,7 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/public/lazosPublic/css/style.css">
-    <link rel="stylesheet" href="/public/fonts/css/fb.css">
+    <link rel="stylesheet" href="/public/fonts/css/instagram.css">
 
 </head>
 <body id="top-page">
@@ -126,25 +126,38 @@
                                     </div>
 
 							<!-- Start Author Content -->
-							<div class="mu-author-content">
+							<div class="mu-author-content d-none d-lg-block ">
 								<div class="row">
                                     <div class="col-lg-4">
                                     </div>
 									<div class="col-lg-4">
-										<div class="mu-author-info">
+										<div class="">
 											<p><strong>Vilarthe</strong> es una marca de ropa y accesorios creada en el departamento de Lambayeque en el norte del Perú con el objetivo de hacerle llegar lo mejor de nuestras fibras peruanas elaboradas con el mejor algodón de la región legado de nuestro pasado milenario siguiendo las tendencias de la moda.</p>
 											<p>Vilarthe ha creado la línea <i><strong>Lazos Baby Clothing</strong></i> elaborada especialmente pensando en proteger la sensible y delicada piel de los bebés.</p>
 											
 										</div>
                                     </div>
-                                    <div class="d-none d-md-block col-lg-4">
+                                    <div class="col-lg-4">
                                             <div class="mu-author-info">
                                                 <p>Características generales: Los tejidos convencionales están elaborados con algodón peruano (pima o nativo), Orgánicos, y teñidos 100% con tintes naturales, los accesorios son antialérgicos libres de níquel diseñados exclusivamente para Lazos Baby Clothing e inspirados en las tendencias y temporadas.</p>
                                                 <p >Las prendas de vestir elaboradas con algodón orgánico certificado le garantizan un producto de calidad ya que en el proceso para producir algodón no se utilizan productos químicos además contribuye con la protección al medio ambiente ya que genera menos contaminación que en un proceso de producción de algodón convencional.</p>
                                             </div>
-                                        </div>
+                                    </div>
 								</div>
 							</div>
+
+                            <div class="mu-author-content d-block d-lg-none">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="">
+                                            <strong>Vilarthe</strong> ha creado la línea <strong>Lazos Baby Clothing</strong> elaborada especialmente pensando en proteger la sensible y delicada piel de los bebés.
+                                            Características generales: Los tejidos convencionales están elaborados con algodón peruano (pima o nativo), Orgánicos, y teñidos 100% con tintes naturales, los accesorios son antialérgicos libres de níquel diseñados exclusivamente para Lazos Baby Clothing e inspirados en las tendencias y temporadas.
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
 							<!-- End Author Content -->
 
 						</div>
@@ -222,7 +235,7 @@
     <!-- End Products -->
 
     <!--Comunnity Section-->
-    <section id="business" class="business bg-grey roomy-70">
+    <section id="business" class="">
         <hr>
         <div class="container">
             <div class="row">
@@ -232,17 +245,17 @@
                             <h3 class="Main-programs__title text-center text-wrap mb-sm-5">CONTRIBUCIÓN A LA COMUNIDAD</h3>
                         </div>
                         <div class="row">
-                            <div class="col-10 offset-1 offset-sm-0 col-sm-12  col-lg-6 mt-3">
+                            <div class="col-10 offset-1 col-sm-10 offset-lg-0 col-lg-6 mt-3">
                                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
-                                        <img class="d-block img-fluid" src="/public/lazosPublic/img/algodon.JPG" alt="First slide">
+                                        <img class="d-block img-fluid" src="/public/lazosPublic/img/com_historia.png" alt="First slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block img-fluid" src="/public/lazosPublic/img/algodon.JPG" alt="Second slide">
+                                        <img class="d-block img-fluid" src="/public/lazosPublic/img/com_algodon_piso.jpg" alt="Second slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block img-fluid" src="/public/lazosPublic/img/algodon.JPG" alt="Third slide">
+                                        <img class="d-block img-fluid" src="/public/lazosPublic/img/com_algodon_piso.jpg" alt="Third slide">
                                     </div>
                                     </div>
                                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -257,23 +270,19 @@
 
                             </div>
 
-                            <div class="col-10 offset-1 offset-sm-0 col-sm-12 col-lg-6 mt-2">
-                                <div class="mu-business-content">
-                                    <div class="business_item">
-                                        <h2 class="text-center"><strong>Apoyo a comunidades rurales</strong></h2>
-                                        <p>
-                                            Cumplimos con uno de los objetivos de desarrollo sostenible de la ONU, la igualdad de género.
-                                            <br>
-                                            Buscamos contribuir a mejorar las condiciones de vida de las comunidades y un impacto en la sociedad
-                                            por ello trabajamos junto con una asociación de artesanas confeccionistas con reconocimientos en la región.
-                                            <br>
-                                            <br>
-                                            <b>Apoyo :</b> Cáritas, Fondo Italo Peruano, Cite Sipan <br><br>
-                                            <b>Reconocimientos :</b><br>
-                                            Reconocimiento por su destacada trayectoria en el día mundial del artesano / Gobierno regional <br>
-                                            Concurso en innovación en artesanía / V Festicausa de Ferreñafe
-                                        </p>
-                                    </div>
+                            <div class="col-10 offset-1 offset-sm-0 col-sm-12 col-lg-6 mt-2 d-flex flex-column justify-content-center align-content-center">
+                                <div class="mu-business-content ">
+                                    <h2 class="text-center"><strong>Apoyo a comunidades rurales</strong></h2>
+                                    <p>
+                                        <br>
+                                        Buscamos contribuir a mejorar las condiciones de vida de las comunidades y un impacto en la sociedad
+                                        por ello trabajamos junto con una asociación de artesanas confeccionistas con reconocimientos en la región.
+                                        <br><br>
+                                        <b>Apoyo :</b> Cáritas, Fondo Italo Peruano, Cite Sipan <br><br>
+                                        <b>Reconocimientos :</b><br>
+                                        Reconocimiento por su destacada trayectoria en el día mundial del artesano / Gobierno regional <br>
+                                        Concurso en innovación en artesanía / V Festicausa de Ferreñafe
+                                    </p>
                                 </div>
                             </div>
                     </div>
@@ -284,42 +293,40 @@
             </div>
         </div>
 
-        <div class="container mt-5">
+        <div class="container mt-5 ">
             <div class="row d-flex">
-                <div class="col-10 offset-1 offset-sm-0 col-sm-12 col-lg-6 order-2 order-lg-1">
+                <div class="col-10 offset-1 offset-sm-0 col-sm-12 col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center align-content-center">
                         <div class="mu-business-content">
-                            <div class="business_item sm-m-top-50">
-                                <h2 class="text-center"><strong>Al rescate de nuestro algodón nativo orgánico</strong></h2>
-                                <p>Cumplimos con los objetivos de desarrollo sostenible de la ONU, producción y consumo responsable y vida de
-                                    ecosistemas terrestres.<br><br>
+                            <h2 class="text-center"><strong>Al rescate de nuestro algodón nativo orgánico</strong></h2>
+                            <p>
                                 Producimos y rescatamos una variedad de algodón llamado “Algodón nativo” que se caracteriza por poseer tintes
-                                    naturales que junto a nuestro algodón pima 100% peruano teñido con tintes naturales nos permiten diseñar y
-                                    crear prendas con más calidad ya que esta variedad de algodón no necesita tintes para obtener sus
-                                    variados colores.</p>
-                                <!--div class="d-none d-md-block">
-                                    <p>Capacitaciones</p>
-                                    <ul>
-                                        <li>Implementación de las 5Ss / Ministerio de comercio exterior y turismo.</li>
-                                        <li>Fortalecer la red de asociaciones en el mercado de organización y artesanía / Cáritas, Fondo Ítalo Peruano.</li>
-                                        <li>Programa de formación: Comité de gestión del Santuario Histórico Bosque de Pómac.</li>
-                                        <li>Proceso de implementación de las NTP 232.204 2014 ARTESANÍAS, ARTESANIAS DE TEXTL EN TELAR DE CINTURA, REQUISITOS.</li>
-                                        <li>Programa Nacional de Turismo Andino / Sierra exportadora.</li>
-                                    </ul>
-                                </div-->
-                            </div>
+                                naturales que junto a nuestro algodón pima 100% peruano teñido con tintes naturales nos permiten diseñar y
+                                crear prendas con más calidad ya que esta variedad de algodón no necesita tintes para obtener sus
+                                variados colores.
+                            </p>
+                            <!--div class="d-none d-md-block">
+                                <p>Capacitaciones</p>
+                                <ul>
+                                    <li>Implementación de las 5Ss / Ministerio de comercio exterior y turismo.</li>
+                                    <li>Fortalecer la red de asociaciones en el mercado de organización y artesanía / Cáritas, Fondo Ítalo Peruano.</li>
+                                    <li>Programa de formación: Comité de gestión del Santuario Histórico Bosque de Pómac.</li>
+                                    <li>Proceso de implementación de las NTP 232.204 2014 ARTESANÍAS, ARTESANIAS DE TEXTL EN TELAR DE CINTURA, REQUISITOS.</li>
+                                    <li>Programa Nacional de Turismo Andino / Sierra exportadora.</li>
+                                </ul>
+                            </div-->
                         </div>
                 </div>
-                <div class="col-10 offset-1 offset-sm-0 col-sm-12 col-lg-6 order-1 order-lg-2">
-                    <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+                <div class="col-10 offset-1 offset-lg-0 col-lg-6 order-1 order-lg-2">
+                    <div id="carouselExampleControls1" class="carousel" data-ride="carousel">
                             <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                                <img class="d-block img-fluid" src="/public/lazosPublic/img/algodon.JPG" alt="First slide">
+                                <img class="d-block img-fluid" src="/public/lazosPublic/img/com_algodon_piso.jpg" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="/public/lazosPublic/img/algodon.JPG" alt="Second slide">
+                                <img class="d-block img-fluid" src="/public/lazosPublic/img/com_algodon_planta.jpg" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="/public/lazosPublic/img/algodon.JPG" alt="Third slide">
+                                <img class="d-block img-fluid" src="/public/lazosPublic/img/com_tejido_mano.jpg" alt="Third slide">
                             </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
@@ -335,23 +342,36 @@
             </div>
         </div>
 
-        <div class="container onu mt-5">
+    </section>
+
+    <section class="onu mb-5">
+        <div class="container">
             <div class="row">
-                <div class="col-2 offset-3">
-                    <img class="img-fluid" src="/public/lazosPublic/img/desarrolloSostenible.jpg" alt="desarrollo sostenible">
+                <div class="col-12 d-flex justify-content-center">
+                    <img src="/public/lazosPublic/img/onu_objetivos.png" alt="">
                 </div>
-                <div class="col-2">
-                    <img class="img-fluid" src="/public/lazosPublic/img/ecosistema.jpg" alt="ecosistema">
+            </div>
+        </div>
+        <div class="container onu mt-5">
+            <div class="row d-flex justify-content-around">
+                <div class="col-4 col-md-2 ">
+                    <img class="img-fluid" src="/public/lazosPublic/img/onu_igualdadGenero.jpg" alt="desarrollo sostenible">
                 </div>
-                <div class="col-2">
-                    <img class="img-fluid" src="/public/lazosPublic/img/igualdadGenero.jpg" alt="First slide">
+                <div class="col-4 col-md-2">
+                    <img class="img-fluid" src="/public/lazosPublic/img/onu_ecosistema.jpg" alt="ecosistema">
+                </div>
+                <div class="col-4 col-md-2">
+                    <img class="img-fluid" src="/public/lazosPublic/img/onu_desarrolloSostenible.jpg" alt="First slide">
                 </div>
             </div>
         </div>
 
-
+        <!--Cumplimos con uno de los objetivos de desarrollo sostenible de la ONU, la igualdad de género.
+                        Cumplimos con los objetivos de desarrollo sostenible de la ONU, producción y consumo responsable y vida de
+                                    ecosistemas terrestres.<br><br>
+                        -->
     </section>
-        <!-- End off Business section -->
+
 
     <section class="contact" id="CONTACT">
         <hr>
@@ -421,7 +441,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="work-with   wow fadeInUp animated">
-                        <h3>looking forward to hearing from you!</h3>
+                        <h3>estamos siempre dispuestos para atenderte</h3>
                     </div>
                 </div>
             </div>
@@ -443,10 +463,11 @@
                 <div class="row">
                     <div class="col-md-12 text-center   wow fadeInUp animated">
                         <div class="social">
-                            <h2>Follow Me on Here</h2>
+                            <h2>Síguenos en nuestras redes</h2>
                             <ul class="icon_list">
                                 <li><a href="http://www.fb.com" target="_blank"><i class="icon-facebook"></i></a></li>
                                 <li><a href="http://www.youtube.com" target="_blank"><i class="icon-youtube"></i></a></li>
+                                <li><a href="http://www.youtube.com" target="_blank"><i class="icon-instagram"></i></a></li>
                                 <!-- <li><a href=""><i class="fa fa-dribbble"></i></a></li> -->
                             </ul>
                         </div>
