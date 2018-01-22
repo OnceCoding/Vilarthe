@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca93eb97-7105-44b0-be84-cbfd51660aca" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/model/Article.php" afterPath="$PROJECT_DIR$/app/model/Article.php" />
-      <change beforePath="$PROJECT_DIR$/app/model/Products_lazos.php" afterPath="$PROJECT_DIR$/app/model/Products_lazos.php" />
-      <change beforePath="$PROJECT_DIR$/app/view/lazos/en/index.php" afterPath="$PROJECT_DIR$/app/view/lazos/en/index.php" />
-      <change beforePath="$PROJECT_DIR$/app/view/lazos/es/index.php" afterPath="$PROJECT_DIR$/app/view/lazos/es/index.php" />
+      <change beforePath="$PROJECT_DIR$/app/view/cpanel/cpanel.php" afterPath="$PROJECT_DIR$/app/view/cpanel/cpanel.php" />
+      <change beforePath="$PROJECT_DIR$/app/view/cpanel/products.php" afterPath="$PROJECT_DIR$/app/view/cpanel/products.php" />
+      <change beforePath="$PROJECT_DIR$/app/view/cpanel/products_operations.php" afterPath="$PROJECT_DIR$/app/view/cpanel/products_operations.php" />
+      <change beforePath="$PROJECT_DIR$/app/view/cpanel/projects.php" afterPath="$PROJECT_DIR$/app/view/cpanel/projects.php" />
+      <change beforePath="$PROJECT_DIR$/app/view/cpanel/projects_operations.php" afterPath="$PROJECT_DIR$/app/view/cpanel/projects_operations.php" />
+      <change beforePath="$PROJECT_DIR$/app/view/login/login.php" afterPath="$PROJECT_DIR$/app/view/login/login.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,21 +31,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/lazos/en/index.php">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/view/login/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="213">
+              <caret line="19" column="71" lean-forward="false" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/view/lazos/es/index.php">
+      <file leaf-file-name="cpanel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/cpanel/cpanel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3012">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/cpanel/products.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products_operations.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/cpanel/products_operations.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projects.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/cpanel/projects.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projects_operations.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/cpanel/projects_operations.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -101,19 +142,13 @@
         <option value="$PROJECT_DIR$/public/vilarthePublic/css/sty.css" />
         <option value="$PROJECT_DIR$/app/core/Core.php" />
         <option value="$PROJECT_DIR$/app/view/panelControl/cpanel.php" />
-        <option value="$PROJECT_DIR$/app/view/login/login.php" />
         <option value="$PROJECT_DIR$/app/controller/LoginController.php" />
         <option value="$PROJECT_DIR$/app/controller/PanelController.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/public/libraries/js/sweetAlert2.js" />
         <option value="$PROJECT_DIR$/app/model/Mail.php" />
-        <option value="$PROJECT_DIR$/app/view/cpanel/products.php" />
-        <option value="$PROJECT_DIR$/app/view/cpanel/products_operations.php" />
-        <option value="$PROJECT_DIR$/app/view/cpanel/projects.php" />
-        <option value="$PROJECT_DIR$/app/view/cpanel/projects_operations.php" />
         <option value="$PROJECT_DIR$/app/controller/CpanelController.php" />
-        <option value="$PROJECT_DIR$/app/view/cpanel/cpanel.php" />
         <option value="&lt;0f53299f-0437-4389-a227-3a686ff85bad&gt;/public/lazosPublic/js/main.js" />
         <option value="&lt;0f53299f-0437-4389-a227-3a686ff85bad&gt;/app/core/Controller.php" />
         <option value="&lt;0f53299f-0437-4389-a227-3a686ff85bad&gt;/app/controller/LazosController.php" />
@@ -136,6 +171,12 @@
         <option value="$PROJECT_DIR$/app/model/Products_lazos.php" />
         <option value="$PROJECT_DIR$/app/view/lazos/es/index.php" />
         <option value="$PROJECT_DIR$/app/view/lazos/en/index.php" />
+        <option value="$PROJECT_DIR$/app/view/cpanel/cpanel.php" />
+        <option value="$PROJECT_DIR$/app/view/cpanel/products.php" />
+        <option value="$PROJECT_DIR$/app/view/cpanel/products_operations.php" />
+        <option value="$PROJECT_DIR$/app/view/cpanel/projects.php" />
+        <option value="$PROJECT_DIR$/app/view/cpanel/projects_operations.php" />
+        <option value="$PROJECT_DIR$/app/view/login/login.php" />
       </list>
     </option>
   </component>
@@ -267,56 +308,19 @@
               <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lazos" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cpanel" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lazos" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="en" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lazos" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="es" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="login" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lazosPublic" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lazosPublic" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lazosPublic" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="products" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -406,12 +410,12 @@
       <workItem from="1516543250305" duration="2675000" />
       <workItem from="1516546466584" duration="8489000" />
       <workItem from="1516574767416" duration="5899000" />
-      <workItem from="1516589719017" duration="3825000" />
+      <workItem from="1516589719017" duration="6794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199370000" />
+    <option name="totallyTimeSpent" value="202339000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/login/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -572,41 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/cpanel/products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2992">
-          <caret line="183" column="17" lean-forward="false" selection-start-line="183" selection-start-column="17" selection-end-line="183" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/cpanel/products_operations.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/cpanel/projects.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="67" column="30" lean-forward="false" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/cpanel/projects_operations.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="74" column="30" lean-forward="true" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/cpanel/cpanel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="162" column="114" lean-forward="true" selection-start-line="162" selection-start-column="114" selection-end-line="162" selection-end-column="114" />
         </state>
       </provider>
     </entry>
@@ -795,6 +757,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3012">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/cpanel/cpanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/cpanel/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/cpanel/products_operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/cpanel/projects.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/cpanel/projects_operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/login/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="19" column="71" lean-forward="false" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
           <folding />
         </state>
       </provider>

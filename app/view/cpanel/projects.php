@@ -1,3 +1,13 @@
+<?php
+
+    session_start();
+
+    if(!isset($_SESSION['user'])){
+        header('location:/');
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,13 +15,13 @@
     <title>Vilarthe - Panel de Control | Proyectos </title>
     <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
 
-    <link rel="stylesheet" href="../public/cpanelPublic/library/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/cpanelPublic/library/bootstrap/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <link href="../public/cpanelPublic/library/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../public/cpanelPublic/css/style.css">
+    <link href="/public/cpanelPublic/library/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/public/cpanelPublic/css/style.css">
 
 </head>
 <body id="top-page">
@@ -21,7 +31,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="../cpanel.html">
-            <img src="../public/cpanelPublic/img/logoFondoOscuro_h56px.png" alt="">
+            <img src="/public/cpanelPublic/img/logoFondoOscuro_h56px.png" alt="">
         </a>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <div class="container-fluid">
@@ -177,11 +187,11 @@
 
     </div><!-- body-row END -->
 
-    <script src="../public/cpanelPublic/library/bootstrap/js/jquery-3.1.0.min.js"></script>
-    <script src="../public/cpanelPublic/library/bootstrap/js/popper.min.js"></script>
-    <script src="../public/cpanelPublic/library/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../public/cpanelPublic/js/main.js"></script>
-    <script src="../public/cpanelPublic/js/dropzone.js"></script>
+    <script src="/public/cpanelPublic/library/bootstrap/js/jquery-3.1.0.min.js"></script>
+    <script src="/public/cpanelPublic/library/bootstrap/js/popper.min.js"></script>
+    <script src="/public/cpanelPublic/library/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/public/cpanelPublic/js/main.js"></script>
+    <script src="/public/cpanelPublic/js/dropzone.js"></script>
     
 </body>
 </html>
