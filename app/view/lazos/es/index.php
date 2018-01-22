@@ -1,3 +1,16 @@
+<?php
+
+    require_once __DIR__ . '/../../../model/Article.php';
+    require_once __DIR__ . '/../../../model/Products_lazos.php';
+
+    $article = new Article();
+    $resulSetArticle = $article->getData($data = 'es');
+
+    $products = new Products_lazos();
+    $resulSetProducts = $products->getProducts($data = 'es');
+
+?>
+
 <!DOCTYPE html>
 <html lang="es" prefix="og: http://ogp.me/ns#">
 <head>
@@ -177,7 +190,20 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-10 offset-1 offset-md-0 col-md-4">
+
+                <?php foreach ($resulSetProducts as $product): ?>
+                    <div class="col-10 offset-1 offset-md-0 col-md-4">
+                        <div class="card">
+                            <img src="<?= $product['image'] ?>" class="card-img" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title mt-3 text-center"> <?= $product['name_spanish'] ?> </h4>
+                                <p class="card-text"><?= $product['description_spanish'] ?></p>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+
+                <!--div class="col-10 offset-1 offset-md-0 col-md-4">
                     <div class="card">
                         <div class="card-body">
                             <img src="/public/lazosPublic/img/imgConjunto1.PNG" class="card-img" alt="">
@@ -227,7 +253,7 @@
                                 <h4 class="card-title mt-3 text-center"> Conjunto 3 </h4>
                             </div>
                         </div>
-                    </div>
+                    </div-->
                 </div>
 
         </div>
@@ -274,14 +300,7 @@
                                 <div class="mu-business-content ">
                                     <h2 class="text-center"><strong>Apoyo a comunidades rurales</strong></h2>
                                     <p>
-                                        <br>
-                                        Buscamos contribuir a mejorar las condiciones de vida de las comunidades y un impacto en la sociedad
-                                        por ello trabajamos junto con una asociación de artesanas confeccionistas con reconocimientos en la región.
-                                        <br><br>
-                                        <b>Apoyo :</b> Cáritas, Fondo Italo Peruano, Cite Sipan <br><br>
-                                        <b>Reconocimientos :</b><br>
-                                        Reconocimiento por su destacada trayectoria en el día mundial del artesano / Gobierno regional <br>
-                                        Concurso en innovación en artesanía / V Festicausa de Ferreñafe
+                                        <?= $resulSetArticle[0]['description_1_spanish'] ?>
                                     </p>
                                 </div>
                             </div>
@@ -299,10 +318,7 @@
                         <div class="mu-business-content">
                             <h2 class="text-center"><strong>Al rescate de nuestro algodón nativo orgánico</strong></h2>
                             <p>
-                                Producimos y rescatamos una variedad de algodón llamado “Algodón nativo” que se caracteriza por poseer tintes
-                                naturales que junto a nuestro algodón pima 100% peruano teñido con tintes naturales nos permiten diseñar y
-                                crear prendas con más calidad ya que esta variedad de algodón no necesita tintes para obtener sus
-                                variados colores.
+                                <?= $resulSetArticle[0]['description_2_spanish'] ?>
                             </p>
                             <!--div class="d-none d-md-block">
                                 <p>Capacitaciones</p>

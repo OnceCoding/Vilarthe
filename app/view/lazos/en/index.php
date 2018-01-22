@@ -1,7 +1,14 @@
 <?php
+
     require_once __DIR__ . '/../../../model/Article.php';
+    require_once __DIR__ . '/../../../model/Products_lazos.php';
+    
     $article = new Article();
-    $resultSet = $article->getData($data);
+    $resulSetArticle = $article->getData($data = 'en');
+
+    $products = new Products_lazos();
+    $resulSetProducts = $products->getProducts($data = 'en');
+
 ?>
 <!DOCTYPE html>
 <html lang="es" prefix="og: http://ogp.me/ns#">
@@ -181,59 +188,63 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-10 offset-1 offset-md-0 col-md-4">
+
+                <?php foreach ($resulSetProducts as $product): ?>
+                    <div class="col-10 offset-1 offset-md-0 col-md-4">
+                        <div class="card">
+                            <img src="<?= $product['image'] ?>" class="card-img" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title mt-3 text-center"> <?= $product['name_english'] ?> </h4>
+                                <p class="card-text"><?= $product['description_english'] ?></p>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+
+                <!--div class="col-10 offset-1 offset-md-0 col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <img src="/public/lazosPublic/img/imgConjunto2.PNG" class="card-img" alt="">
-                            <h4 class="card-title mt-3 text-center"> Conjunto 1 </h4>
+                            <img src="<?= $resulSetProducts[1]['image'] ?>" class="card-img" alt="">
+                            <h4 class="card-title mt-3 text-center"> <?= $resulSetProducts[1]['name_english'] ?> </h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-10 offset-1 offset-md-0 col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <img src="/public/lazosPublic/img/imgConjunto2.PNG" class="card-img" alt="">
-                            <h4 class="card-title mt-3 text-center"> Conjunto 2 </h4>
+                            <img src="<?= $resulSetProducts[2]['image'] ?>" class="card-img" alt="">
+                            <h4 class="card-title mt-3 text-center"> <?= $resulSetProducts[2]['name_english'] ?> </h4>
+                        </div>
+                    </div>
+                </div-->
+            <!--/div>
+
+            <div class="row"-->
+                <!--div class="col-10 offset-1 offset-md-0 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="<?= $resulSetProducts[3]['image'] ?>" class="card-img" alt="">
+                            <h4 class="card-title mt-3 text-center"> <?= $resulSetProducts[3]['name_english'] ?> </h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-10 offset-1 offset-md-0 col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <img src="/public/lazosPublic/img/imgConjunto2.PNG" class="card-img" alt="">
-                            <h4 class="card-title mt-3 text-center"> Conjunto 3 </h4>
+                            <img src="<?= $resulSetProducts[4]['image'] ?>" class="card-img" alt="">
+                            <h4 class="card-title mt-3 text-center"> <?= $resulSetProducts[4]['name_english'] ?> </h4>
                         </div>
                     </div>
                 </div>
+                <div class="col-10 offset-1 offset-md-0 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="<?= $resulSetProducts[5]['image'] ?>" class="card-img" alt="">
+                            <h4 class="card-title mt-3 text-center"> <?= $resulSetProducts[5]['name_english'] ?> </h4>
+                        </div>
+                    </div>
+                </div-->
             </div>
-
-            <div class="row">
-                    <div class="col-10 offset-1 offset-md-0 col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="/public/lazosPublic/img/imgConjunto1.PNG" class="card-img" alt="">
-                                <h4 class="card-title mt-3 text-center"> Conjunto 1 </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-10 offset-1 offset-md-0 col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="/public/lazosPublic/img/imgConjunto1.PNG" class="card-img" alt="">
-                                <h4 class="card-title mt-3 text-center"> Conjunto 2 </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-10 offset-1 offset-md-0 col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="/public/lazosPublic/img/imgConjunto1.PNG" class="card-img" alt="">
-                                <h4 class="card-title mt-3 text-center"> Conjunto 3 </h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
         </div>
     </section>
     <!-- End Products -->
@@ -276,9 +287,9 @@
 
                             <div class="col-10 offset-1 offset-sm-0 col-sm-12 col-lg-6 mt-2 d-flex flex-column justify-content-center align-content-center">
                                 <div class="mu-business-content ">
-                                    <h2 class="text-center"><strong><?= $resultSet[0]['title_1_english'] ?></strong></h2>
+                                    <h2 class="text-center"><strong><?= $resulSetArticle[0]['title_1_english'] ?></strong></h2>
                                     <p>
-                                        <?= $resultSet[0]['description_1_english'] ?>
+                                        <?= $resulSetArticle[0]['description_1_english'] ?>
                                     </p>
                                 </div>
                             </div>
@@ -294,9 +305,9 @@
             <div class="row d-flex">
                 <div class="col-10 offset-1 offset-sm-0 col-sm-12 col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center align-content-center">
                         <div class="mu-business-content">
-                            <h2 class="text-center"><strong><?= $resultSet[0]['title_2_english'] ?></strong></h2>
+                            <h2 class="text-center"><strong><?= $resulSetArticle[0]['title_2_english'] ?></strong></h2>
                             <p>
-                                <?= $resultSet[0]['description_2_english'] ?>
+                                <?= $resulSetArticle[0]['description_2_english'] ?>
                             </p>
                             <!--div class="d-none d-md-block">
                                 <p>Capacitaciones</p>
