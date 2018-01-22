@@ -1,19 +1,11 @@
-﻿<?php
-
-    session_start();
-
-    if(!isset($_SESSION['user'])){
-        header('location:/');
-    }
-
-?>
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>TI Cognitivas</title>
+    <title>cpanel</title>
     <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
 
+    <link rel="shortcut icon" type="image/png" href="/public/vilarthePublic/images/vilarthe_icono.png"/>
     <link rel="stylesheet" href="/public/cpanelPublic/library/bootstrap/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>

@@ -1,34 +1,48 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title> Vilarthe | Iniciar Sesión</title>
+	<title>Iniciar Sesión</title>
 
+    <link rel="shortcut icon" type="image/png" href="/public/vilarthePublic/images/vilarthe_icono.png"/>
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/public/libraries/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/public/loginPublic/css/animateLogin.css">
 	<link rel="stylesheet" href="/public/loginPublic/css/styleLogin.css">
 
 </head>
 
 <body>
 	<div class="container-login">
-		<div class="login-box animated fadeInUp">
-            <form action="/login" method="post">
+		<div class="login-box ">
+            <form action="/login/validate" method="post">
                 <div class="box-header">
-                    <h1 id="title" class="hidden"><img class="img-fluid" src="/public/loginPublic/images/logoFondoOscuro100.png"></h1>
+                    <img class="img-fluid py-4" src="/public/loginPublic/images/logoFondoOscuro100.png">
                 </div>
-                <label for="username" class="mt">Usuario</label>
-                <br/>
-                <input type="text" id="username">
-                <br/>
-                <label for="password">Contraseña</label>
-                <br/>
-                <input type="password" id="password">
-                <br/>
-                <button type="submit">Ingresar</button>
-                <br/>
+                <div class="form-group">
+                    <label for="username" class="">Usuario</label>
+                    <div class="d-flex justify-content-center">
+                        <input class="form-control" type="text" id="username" name="username">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="pass" class="">Contraseña</label>
+                    <div class="d-flex justify-content-center">
+                        <input class="form-control" type="password" id="pass" name="pass">
+                    </div>
+                </div>
+                <div>
+                    <?php
+
+                        session_start();
+
+                        if(isset($_SESSION['user'])):
+                            if($_SESSION['user'] == 'false'): ?>
+                                <span class="error">Acceso denegado</span>
+                    <?php   endif;
+                        endif;
+                    ?>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
 		</div>
 	</div>

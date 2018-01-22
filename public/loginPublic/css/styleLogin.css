@@ -7,34 +7,10 @@ body {
 	margin: 0;
 	color: #666;
 	overflow-y: hidden;
-}
-
-/* Typography */
-h1#title {
-	font-family: 'Roboto Slab', serif;
-	font-weight: 300;
-	font-size: 3.2em;
-	color: white;
-	text-shadow: 0 0 10px rgba(0,0,0,0.8);
-	margin: 0 auto;
-	padding-top: 25px;
-	margin-bottom: 20px;
-	max-width: 300px;
-	text-align: center;
-	position: relative;
-}
-
-h1#title span span {
-	font-weight: 400;
-}
-
-h2 {
-	text-transform: uppercase;
-	color: white;
-	font-weight: 400;
-	letter-spacing: 1px;
-	font-size: 1.4em;
-	line-height: 2.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 a {
@@ -67,7 +43,6 @@ p.small {
 
 .login-box .box-header {
 	background-color: rgba(0,0,0,0.8);
-	margin-top: 20%;
 	border-radius: 5px 5px 0 0;
 }
 
@@ -99,7 +74,7 @@ p.small {
 }
 
 .login-box button {
-	margin-top: 0px;
+	margin-top: 0;
 	border: 0;
 	border-radius: 2px;
 	color: white;
@@ -128,9 +103,15 @@ p.small {
 	transition: 0.5s;
 }
 
-/* Animation Delay */
-.login-box {
-  -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 1s;
+.error{
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: hsl(0,70%,60%);
+	color: #fff;
+    padding: 4px;
+    border-radius: 2px;
+	margin-bottom: 20px;
 }
 

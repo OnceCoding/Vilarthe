@@ -10,8 +10,8 @@ class LoginController extends Controller {
         $this->view("login/login");
     }
 
-    public function validar($parameter = ''){//print_r($_POST);
-        $this->method("validateLogin", $_POST);
+    public function validate($parameter = ''){//print_r($_POST);
+        $this->extras("validateLogin", $_POST);
     }
 
 }
