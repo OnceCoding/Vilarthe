@@ -14,33 +14,17 @@
 <body id="top-page">
 
     <!--- sidebar -->
-    <?php require_once __DIR__ . '/inc/navbar.php'?>
+    <?php require_once __DIR__ . '../inc/navbar.php'?>
 
     <!-- Bootstrap row -->
     <div class="row" id="body-row">
         <!-- Sidebar -->
-        <?php require_once __DIR__ . '/inc/sidebar.php' ?>
+        <?php require_once __DIR__ . '../inc/sidebar.php' ?>
 
         <!-- MAIN -->
         <div class="container-fluid div-main">
         <div class="col">
-            <section class="container-fluid" id="Main">
-                <h1 style="padding-top: 15px;">
-                    Vilarthe
-                    <small class="text-muted"> | Panel Administrativo</small>
-                </h1>
-
-                <div class="card">
-                    <h4 class="card-header">Descripción Panel Administrativo Vilarthe</h4>
-                    <div class="card-body" style="text-align: justify;">
-                        <p>
-                            En este apartado se te permite modificar, eliminar o agregar la información de las Lineas Comerciales de Vilarthe. Todas las Lineas Comerciales se encuentran en la parte izquierda dónde se encuentra la barra de navegación lateral de la página, y cada una cuenta con un submenú para poder elegir la sección que se quiere editar.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            <!--section class="container-fluid" id="Lazos">
+            <section class="container-fluid" id="Lazos">
                 <h2 style="padding-top: 15px;">
                     Lazos
                 </h2>
@@ -98,7 +82,7 @@
                         </div>
                     </div>
                 </div>
-            </section-->
+            </section>
 
         </div>
         </div><!-- Main Col END -->

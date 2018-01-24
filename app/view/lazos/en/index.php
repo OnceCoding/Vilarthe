@@ -7,7 +7,7 @@
     $resulSetArticle = $article->getData($data = 'en');
 
     $products = new Products_lazos();
-    $resulSetProducts = $products->getProducts($data = 'en');
+    $resulSetProducts = $products->getProductsAvailables($data = 'en');
 
 ?>
 <!DOCTYPE html>
@@ -192,10 +192,9 @@
                 <?php foreach ($resulSetProducts as $product): ?>
                     <div class="col-10 offset-1 offset-md-0 col-md-4">
                         <div class="card">
-                            <img src="<?= $product['image'] ?>" class="card-img" alt="">
+                            <img src="<?= '/public/lazosPublic/img/products/'  . $product['image'] ?>" class="card-img" alt="">
                             <div class="card-body">
-                                <h4 class="card-title mt-3 text-center"> <?= $product['name_english'] ?> </h4>
-                                <p class="card-text"><?= $product['description_english'] ?></p>
+                                <h4 class="card-title mt-3 text-center h6"> <?= $product['name_en'] ?> </h4>
                             </div>
                         </div>
                     </div>

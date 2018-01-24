@@ -46,7 +46,7 @@
 /* Closed submenu icon */
 #sidebar-container .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after {
   content: " \f0d7";
-  font-family: FontAwesome;
+  font-family: FontAwesome, sans-serif;
   display: inline;
   text-align: right;
   padding-left: 10px;
@@ -54,7 +54,7 @@
 /* Opened submenu icon */
 #sidebar-container .list-group .list-group-item[aria-expanded="true"] .submenu-icon::after {
   content: " \f0da";
-  font-family: FontAwesome;
+  font-family: FontAwesome, sans-serif;
   display: inline;
   text-align: right;
   padding-left: 10px;
@@ -63,6 +63,23 @@
 
 @media only screen and (max-width: 768px){
     .div-main{
-        margin-left: 0px;
+        margin-left: 0;
     }
+}
+
+/* product_edit */
+.div-main__loadimage{
+    width: 200px;
+    height: 200px;
+}
+
+.div-main__topbar {
+    background-color: #6c757d;
+    border-radius: 4px;
+}
+.hola{
+    background-color: lightblue;
+}
+button:hover{
+    cursor: pointer;
 }

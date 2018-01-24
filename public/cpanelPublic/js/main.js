@@ -1,3 +1,5 @@
+
+
 (function($) {
     // Hide submenus
     $('#body-row .collapse').collapse('hide');
@@ -28,3 +30,4 @@
         $('#collapse-icon').toggleClass('fa-angle-double-left fa-angle-double-right');
     }
 })(jQuery); // End of use strict
+

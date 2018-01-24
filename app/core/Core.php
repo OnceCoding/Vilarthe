@@ -36,11 +36,11 @@ class Core{
 
         $this->parameter = $url ? array_values($url) : [];
 
-        if($this->parameter != []){
+        /*if($this->parameter != []){
             header("location:/lazos");
-        }
+        }*/
 
-        call_user_func_array([$this->controller, $this->method], []);
+        call_user_func_array([$this->controller, $this->method], $this->parameter);
     }
 
     public function getUrl(){
