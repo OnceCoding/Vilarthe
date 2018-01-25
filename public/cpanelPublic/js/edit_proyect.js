@@ -13,7 +13,7 @@ $(function () {
             cancelButtonText: 'No'
         }).then(function (result) {
             if (result.value) {
-                window.location.href = "/cpanel/proyects";
+                window.location.href = "/cpanel/projects";
             }
         });
 
@@ -55,7 +55,7 @@ $("#form").bind("submit", function () {
                     confirmButtonText: 'Aceptar'
                 }).then(function (result) {
                     if (result.value) {
-                        window.location.href = '/cpanel/products';
+                        window.location.href = '/cpanel/projects';
                     }
                 });
                 //console.log("se envio sms");
@@ -63,7 +63,7 @@ $("#form").bind("submit", function () {
             else if(response === "img-size"){
                 swal({
                     title: 'Imagen',
-                    text: "El peso de la imagen supera los 500kb",
+                    text: "El peso de una imagen supera los 500kb",
                     type: 'error',
                     confirmButtonColor: '#E19D9D',
                     confirmButtonText: 'Aceptar'
@@ -82,7 +82,7 @@ $("#form").bind("submit", function () {
             }
             else if(response === "false"){
                 swal({
-                    title: 'Error al actualizar los datos--',
+                    title: 'Error al actualizar los datos.',
                     text: "",
                     type: 'error',
                     confirmButtonColor: '#E19D9D',

@@ -61,6 +61,14 @@ class CpanelController extends Controller {
         $this->view("cpanel/lazos/project_edit", $id);
     }
 
+    public function project_update($id){
+        $this->validate();
+        if(isset($_POST['title_es'])){
+            require_once __DIR__ . '/../model/Article.php';
+            require_once __DIR__ . '/../method/lazos/project_update.php';
+        }
+    }
+
     public function validate(){
         session_start();
         if(!isset($_SESSION['user'])){

@@ -40,108 +40,113 @@
         <div class="row mt-3">
             <div class="col-10 mx-auto">
                 <div class="card card-body mb-5">
-                    <div class="container">
-                        <div class="row  py-1 div-main__topbar  d-flex align-items-center mb-3">
-                            <div class="col-12 col-sm-5">
-                                <h4 class="card-title pt-2 text-white"> Editar Artículo </h4>
-                            </div>
-                            <div class="col-6 col-sm-3 ml-auto">
-                                <button type="submit" class="btn btn-primary btn-block ">Guardar</button>
-                            </div>
-                            <div class="col-6 col-sm-3">
-                                <button id="cancel" class="btn btn-dark btn-block ">Cancelar</button>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-12 col-sm-4 pt-4">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="div-main__loadimage mx-auto my-auto">
-                                            <img class="img-fluid" id="img-1" src="/public/cpanelPublic/img/cargarImagen.png ">
-                                        </div>
-                                    </div>
+                    <form id="form" action="/cpanel/project_update/<?= $data ?>" method="post" enctype="multipart/form-data">
+                        <div class="container">
+                            <div class="row  py-1 div-main__topbar  d-flex align-items-center mb-3">
+                                <div class="col-12 col-sm-5">
+                                    <h4 class="card-title pt-2 text-white"> Editar Artículo </h4>
                                 </div>
-                                <div class="row ">
-                                    <div class="col-12 d-flex justify-content-center mt-1">
-                                        <div class="custom-file">
-                                            <input type="file" class="custom-file-input" id="input-img-1" onchange="previewImage1()">
-                                            <label id="lbl-img-1" class="custom-file-label" for="input-img-1">Elegir Imagen</label>
-                                        </div>
-                                    </div>
+                                <div class="col-6 col-sm-3 ml-auto">
+                                    <button type="submit" class="btn btn-primary btn-block ">Guardar</button>
+                                </div>
+                                <div class="col-6 col-sm-3">
+                                    <button id="cancel" type="button" class="btn btn-dark btn-block ">Cancelar</button>
                                 </div>
                             </div>
-                            <div class="col-12 col-sm-4 pt-4">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="div-main__loadimage mx-auto my-auto">
-                                            <img class="img-fluid" id="img-2" src="/public/cpanelPublic/img/cargarImagen.png ">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row ">
-                                    <div class="col-12 d-flex justify-content-center mt-1">
-                                        <div class="custom-file">
-                                            <input type="file" class="custom-file-input" id="input-img-2" onchange="previewImage2()">
-                                            <label id="lbl-img-2" class="custom-file-label" for="input-img-2">Elegir Imagen</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-4 pt-4">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="div-main__loadimage mx-auto my-auto">
-                                            <img class="img-fluid" id="img-3" src="/public/cpanelPublic/img/cargarImagen.png ">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row ">
-                                    <div class="col-12 d-flex justify-content-center mt-1">
-                                        <div class="custom-file">
-                                            <input type="file" class="custom-file-input" id="input-img-3" onchange="previewImage3()">
-                                            <label id="lbl-img-3" class="custom-file-label" for="input-img-3">Elegir Imagen</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <form>
+                            <div class="row mb-3">
+                                <div class="col-12 col-sm-4 pt-4">
                                     <div class="row">
-                                        <div class="col-12 col-md-6">
-                                            <div class="form-group">
-                                                <label for="inputNameEs">Nombre</label>
-                                                <input type="text" class="form-control form-inline" id="inputNameEs" placeholder="Nombre "
-                                                    required value="<?= $article[0]['title_es'] ?>">
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-md-6">
-                                            <div class="form-group">
-                                                <label for="inputNameEn">Name</label>
-                                                <input type="text" class="form-control form-inline" id="inputNameEn" placeholder="Name "
-                                                required value="<?= $article[0]['title_en'] ?>">
+                                        <div class="col-12">
+                                            <div class="div-main__loadimage mx-auto my-auto">
+                                                <img class="img-fluid" id="img-1" src="<?= '/public/lazosPublic/img/articles/'.  $article[0]['slider_1'] ?>">
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="row ">
+                                        <div class="col-12 d-flex justify-content-center mt-1">
+                                            <div class="custom-file">
+                                                <input accept=".jpg,.jpeg,.png" name="img-1" type="file" class="custom-file-input" id="input-img-1" onchange="previewImage1()">
+                                                <label id="lbl-img-1" class="custom-file-label" for="input-img-1">Cambiar Imagen</label>
+                                                <input name="img-default-1" type="hidden" value="<?= $article[0]['slider_1'] ?>">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 pt-4">
                                     <div class="row">
-                                        <div class="col-12 col-md-6">
-                                            <div class="form-group">
-                                                <label for="inputDescriptionEs">Descripción</label>
-                                                <textarea spellcheck="false" class="form-control" id="inputDescriptionEs" rows="3" required><?= htmlentities($article[0]['description_es']) ?></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-md-6">
-                                            <div class="form-group">
-                                                <label for="inputDescriptionEn">Description</label>
-                                                <textarea spellcheck="false" class="form-control" id="inputDescriptionEn" rows="3" required><?= htmlentities($article[0]['description_en']) ?></textarea>
+                                        <div class="col-12">
+                                            <div class="div-main__loadimage mx-auto my-auto">
+                                                <img class="img-fluid" id="img-2" src="<?= '/public/lazosPublic/img/articles/'.  $article[0]['slider_2'] ?>">
                                             </div>
                                         </div>
                                     </div>
-                                </form>
+                                    <div class="row ">
+                                        <div class="col-12 d-flex justify-content-center mt-1">
+                                            <div class="custom-file">
+                                                <input accept=".jpg,.jpeg,.png" name="img-2" type="file" class="custom-file-input" id="input-img-2" onchange="previewImage2()">
+                                                <label id="lbl-img-2" class="custom-file-label" for="input-img-2">Cambiar Imagen</label>
+                                                <input name="img-default-2" type="hidden" value="<?= $article[0]['slider_2'] ?>">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 pt-4">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="div-main__loadimage mx-auto my-auto">
+                                                <img class="img-fluid" id="img-3" src="<?= '/public/lazosPublic/img/articles/'.  $article[0]['slider_3'] ?>">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row ">
+                                        <div class="col-12 d-flex justify-content-center mt-1">
+                                            <div class="custom-file">
+                                                <input accept=".jpg,.jpeg,.png" name="img-3" type="file" class="custom-file-input" id="input-img-3" onchange="previewImage3()">
+                                                <label id="lbl-img-3" class="custom-file-label" for="input-img-3">Cambiar Imagen</label>
+                                                <input name="img-default-3" type="hidden" value="<?= $article[0]['slider_3'] ?>">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-12 col-md-6">
+                                                <div class="form-group">
+                                                    <label for="inputNameEs">Nombre</label>
+                                                    <input name="title_es" type="text" class="form-control form-inline" id="inputNameEs" placeholder="Nombre "
+                                                           required value="<?= $article[0]['title_es'] ?>">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <div class="form-group">
+                                                    <label for="inputNameEn">Name</label>
+                                                    <input name="title_en" type="text" class="form-control form-inline" id="inputNameEn" placeholder="Name "
+                                                           required value="<?= $article[0]['title_en'] ?>">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-md-6">
+                                                <div class="form-group">
+                                                    <label for="inputDescriptionEs">Descripción</label>
+                                                    <textarea name="des_es" spellcheck="false" class="form-control" id="inputDescriptionEs" rows="3" required><?= htmlentities($article[0]['description_es']) ?></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <div class="form-group">
+                                                    <label for="inputDescriptionEn">Description</label>
+                                                    <textarea name="des_en" spellcheck="false" class="form-control" id="inputDescriptionEn" rows="3" required><?= htmlentities($article[0]['description_en']) ?></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -152,6 +157,7 @@
 <script src="/public/libraries/js/jquery-3.2.1.min.js"></script>
 <script src="/public/libraries/js/popper.min.js"></script>
 <script src="/public/libraries/js/bootstrap.min.js"></script>
+<script src="/public/libraries/js/sweetAlert2.js"></script>
 <script src="/public/cpanelPublic/js/edit_proyect.js"></script>
 </body>
 </html>

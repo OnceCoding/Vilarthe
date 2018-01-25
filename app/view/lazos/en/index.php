@@ -263,13 +263,13 @@
                                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
-                                        <img class="d-block img-fluid" src="/public/lazosPublic/img/com_historia.png" alt="First slide">
+                                        <img class="d-block img-fluid" src="/public/lazosPublic/img/articles/1_3_25_01_2018.png" alt="First slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block img-fluid" src="/public/lazosPublic/img/com_algodon_piso.jpg" alt="Second slide">
+                                        <img class="d-block img-fluid" src="/public/lazosPublic/img/articles/1_1_25_01_2018.jpg" alt="Second slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block img-fluid" src="/public/lazosPublic/img/com_algodon_piso.jpg" alt="Third slide">
+                                        <img class="d-block img-fluid" src="/public/lazosPublic/img/articles/1_1_25_01_2018.jpg" alt="Third slide">
                                     </div>
                                     </div>
                                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -324,13 +324,13 @@
                     <div id="carouselExampleControls1" class="carousel" data-ride="carousel">
                             <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                                <img class="d-block img-fluid" src="/public/lazosPublic/img/com_algodon_piso.jpg" alt="First slide">
+                                <img class="d-block img-fluid" src="/public/lazosPublic/img/articles/1_1_25_01_2018.jpg" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="/public/lazosPublic/img/com_algodon_planta.jpg" alt="Second slide">
+                                <img class="d-block img-fluid" src="/public/lazosPublic/img/articles/1_2_25_01_2018.jpg" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="/public/lazosPublic/img/com_tejido_mano.jpg" alt="Third slide">
+                                <img class="d-block img-fluid" src="/public/lazosPublic/img/articles/2_1_25_01_2018.jpg" alt="Third slide">
                             </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">

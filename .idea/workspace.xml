@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca93eb97-7105-44b0-be84-cbfd51660aca" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/method/lazos/product_create.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/method/lazos/product_update.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/cpanelPublic/js/edit_proyect.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/cpanelPublic/js/new_product.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/method/lazos/project_update.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/controller/CpanelController.php" afterPath="$PROJECT_DIR$/app/controller/CpanelController.php" />
-      <change beforePath="$PROJECT_DIR$/app/core/Controller.php" afterPath="$PROJECT_DIR$/app/core/Controller.php" />
       <change beforePath="$PROJECT_DIR$/app/model/Article.php" afterPath="$PROJECT_DIR$/app/model/Article.php" />
-      <change beforePath="$PROJECT_DIR$/app/model/Products_lazos.php" afterPath="$PROJECT_DIR$/app/model/Products_lazos.php" />
-      <change beforePath="$PROJECT_DIR$/app/view/cpanel/lazos/index.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/view/cpanel/lazos/product_edit.php" afterPath="$PROJECT_DIR$/app/view/cpanel/lazos/product_edit.php" />
-      <change beforePath="$PROJECT_DIR$/app/view/cpanel/lazos/product_new.php" afterPath="$PROJECT_DIR$/app/view/cpanel/lazos/product_new.php" />
-      <change beforePath="$PROJECT_DIR$/app/view/cpanel/lazos/products.php" afterPath="$PROJECT_DIR$/app/view/cpanel/lazos/products.php" />
       <change beforePath="$PROJECT_DIR$/app/view/cpanel/lazos/project_edit.php" afterPath="$PROJECT_DIR$/app/view/cpanel/lazos/project_edit.php" />
-      <change beforePath="$PROJECT_DIR$/app/view/cpanel/lazos/projects.php" afterPath="$PROJECT_DIR$/app/view/cpanel/lazos/projects.php" />
-      <change beforePath="$PROJECT_DIR$/app/view/cpanel/lazos/projects_operations.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/view/lazos/en/index.php" afterPath="$PROJECT_DIR$/app/view/lazos/en/index.php" />
       <change beforePath="$PROJECT_DIR$/app/view/lazos/es/index.php" afterPath="$PROJECT_DIR$/app/view/lazos/es/index.php" />
-      <change beforePath="$PROJECT_DIR$/public/cpanelPublic/js/edit_product.js" afterPath="$PROJECT_DIR$/public/cpanelPublic/js/edit_product.js" />
+      <change beforePath="$PROJECT_DIR$/app/view/lazos/template.php" afterPath="$PROJECT_DIR$/app/view/lazos/template.php" />
+      <change beforePath="$PROJECT_DIR$/public/cpanelPublic/css/styleLazos.css" afterPath="$PROJECT_DIR$/public/cpanelPublic/css/styleLazos.css" />
+      <change beforePath="$PROJECT_DIR$/public/cpanelPublic/js/edit_proyect.js" afterPath="$PROJECT_DIR$/public/cpanelPublic/js/edit_proyect.js" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/articles/1_1_25_01_2018.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/articles/1_2_25_01_2018.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/articles/1_3_25_01_2018.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/img/articles/2_1_25_01_2018.jpg" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,59 +39,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CpanelController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controller/CpanelController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="60" column="52" lean-forward="false" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projects.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/cpanel/lazos/projects.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="104" lean-forward="false" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="products.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/cpanel/lazos/products.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="10" column="104" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="104" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="project_edit.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/view/cpanel/lazos/project_edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="51" column="82" lean-forward="false" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="82" />
+            <state relative-caret-position="391">
+              <caret line="87" column="70" lean-forward="false" selection-start-line="87" selection-start-column="70" selection-end-line="87" selection-end-column="70" />
               <folding>
-                <marker date="1516893431915" expanded="true" signature="6501:6988" ph="..." />
-                <marker date="1516893431915" expanded="true" signature="6570:6941" ph="..." />
-                <marker date="1516893431915" expanded="true" signature="7085:8206" ph="..." />
-                <marker date="1516893431915" expanded="true" signature="7155:7624" ph="..." />
-                <marker date="1516893431915" expanded="true" signature="7224:7577" ph="..." />
-                <marker date="1516893431915" expanded="true" signature="7694:8163" ph="..." />
-                <marker date="1516893431915" expanded="true" signature="7763:8116" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="3005:3755" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="3101:3712" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="3171:3665" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="3861:5213" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="3915:4369" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="3978:4326" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="4070:4279" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="4424:5174" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="4520:5131" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="4590:5084" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="5280:6632" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="5334:5788" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="5395:5745" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="5489:5698" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="5843:6593" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="5939:6550" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="6009:6503" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="6713:7357" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="6766:7357" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="6809:6861" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="6809:7357" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="6867:7357" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="6941:7357" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="7014:7357" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="7266:7357" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="7553:7965" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="7626:7965" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="7874:7965" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="8192:8631" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="8266:8631" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="8339:8631" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="8843:9208" ph="..." />
+                <marker date="1516909835220" expanded="true" signature="8916:9208" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_proyect.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/cpanelPublic/js/edit_proyect.js">
+      <file leaf-file-name="CpanelController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controller/CpanelController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+            <state relative-caret-position="272">
+              <caret line="67" column="73" lean-forward="false" selection-start-line="67" selection-start-column="73" selection-end-line="67" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -104,13 +96,14 @@
       <file leaf-file-name="Article.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/model/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+            <state relative-caret-position="550">
+              <caret line="61" column="5" lean-forward="false" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
               <folding>
-                <marker date="1516890922586" expanded="true" signature="169:291" ph="select title... articulos_vilarthe" />
-                <marker date="1516890922586" expanded="true" signature="363:485" ph="select title... articulos_vilarthe" />
-                <marker date="1516890922586" expanded="true" signature="756:808" ph="select id, t... articles_vilarthe" />
-                <marker date="1516890922586" expanded="true" signature="1067:1216" ph="select id, t... articles_vilarthe" />
+                <marker date="1516902844455" expanded="true" signature="169:291" ph="select title... articulos_vilarthe" />
+                <marker date="1516902844455" expanded="true" signature="363:485" ph="select title... articulos_vilarthe" />
+                <marker date="1516902844455" expanded="true" signature="756:808" ph="select id, t... articles_vilarthe" />
+                <marker date="1516902844455" expanded="true" signature="1067:1216" ph="select id, t... articles_vilarthe" />
+                <marker date="1516902844455" expanded="true" signature="1586:1778" ph="update articles_vilarthe... " />
               </folding>
             </state>
           </provider>
@@ -154,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/model/Conexion.php" />
         <option value="$PROJECT_DIR$/app/controller/LazosController.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4d2e3c0a-fcdf-43c6-a786-bf104afb71c6/console.sql" />
         <option value="$PROJECT_DIR$/app/model/Conecction.php" />
@@ -184,7 +176,6 @@
         <option value="$PROJECT_DIR$/app/core/Core.php" />
         <option value="$PROJECT_DIR$/public/cpanelPublic/css/style.css" />
         <option value="$PROJECT_DIR$/app/view/lazos/en/index.php" />
-        <option value="$PROJECT_DIR$/public/cpanelPublic/css/styleLazos.css" />
         <option value="$PROJECT_DIR$/app/view/cpanel/inc/navbar.php" />
         <option value="$PROJECT_DIR$/public/cpanelPublic/js/main.js" />
         <option value="$PROJECT_DIR$/public/cpanelPublic/js/del_product.js" />
@@ -201,9 +192,11 @@
         <option value="$PROJECT_DIR$/app/method/lazos/product_create.php" />
         <option value="$PROJECT_DIR$/app/model/Products_lazos.php" />
         <option value="$PROJECT_DIR$/app/view/cpanel/lazos/projects.php" />
-        <option value="$PROJECT_DIR$/app/controller/CpanelController.php" />
+        <option value="$PROJECT_DIR$/public/cpanelPublic/css/styleLazos.css" />
         <option value="$PROJECT_DIR$/app/model/Article.php" />
+        <option value="$PROJECT_DIR$/app/controller/CpanelController.php" />
         <option value="$PROJECT_DIR$/public/cpanelPublic/js/edit_proyect.js" />
+        <option value="$PROJECT_DIR$/app/method/lazos/project_update.php" />
         <option value="$PROJECT_DIR$/app/view/cpanel/lazos/project_edit.php" />
       </list>
     </option>
@@ -389,6 +382,19 @@
               <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lazosPublic" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lazosPublic" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="libraries" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -409,7 +415,7 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files (x86)/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Shopping" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Coproduc" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -422,18 +428,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Vilarthe\public\lazosPublic\img\articles" />
       <recent name="C:\xampp\htdocs\Vilarthe\app\method" />
       <recent name="C:\xampp\htdocs\Vilarthe\public\cpanelPublic\img" />
       <recent name="C:\xampp\htdocs\Vilarthe\app\view\cpanel\lazos" />
       <recent name="C:\xampp\htdocs\Vilarthe\app\extras" />
-      <recent name="C:\xampp\htdocs\Vilarthe\app" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Vilarthe\public\lazosPublic\img\articles" />
       <recent name="C:\xampp\htdocs\Vilarthe\public\cpanelPublic\js" />
       <recent name="C:\xampp\htdocs\Vilarthe\app\method\lazos" />
       <recent name="C:\xampp\htdocs\Vilarthe\app\view\cpanel\lazos" />
       <recent name="C:\xampp\htdocs\Vilarthe\public\libraries\css" />
-      <recent name="C:\xampp\htdocs\Vilarthe\public\cpanelPublic\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -497,12 +503,12 @@
       <workItem from="1516740544205" duration="12464000" />
       <workItem from="1516805269258" duration="6094000" />
       <workItem from="1516826670872" duration="15344000" />
-      <workItem from="1516853602747" duration="20398000" />
+      <workItem from="1516853602747" duration="34378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305230000" />
+    <option name="totallyTimeSpent" value="319210000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -515,10 +521,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20121029" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17549168" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2473525" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -552,11 +557,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/loginPublic/images/logoFondoOscuro100.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/loginPublic/images/gente_varios.jpeg" />
     <entry file="file://$PROJECT_DIR$/app/view/login/login.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -677,6 +677,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1572">
           <caret line="513" column="124" lean-forward="false" selection-start-line="513" selection-start-column="124" selection-end-line="513" selection-end-column="124" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -733,25 +734,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/cpanelPublic/css/styleLazos.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="19" lean-forward="false" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/lazosPublic/img/products/archivoblanco.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/method/lazos/product_update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/cpanelPublic/js/edit_product.js">
@@ -802,29 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Products_lazos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="96" column="31" lean-forward="true" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
-          <folding>
-            <marker date="1516884184149" expanded="true" signature="190:354" ph="select name_... products_lazos" />
-            <marker date="1516884184149" expanded="true" signature="425:589" ph="select name_... products_lazos" />
-            <marker date="1516884184149" expanded="true" signature="861:913" ph="select id, n... products_lazos" />
-            <marker date="1516884184149" expanded="true" signature="1175:1388" ph="select id, n... products_lazos" />
-            <marker date="1516884184149" expanded="true" signature="1175:1400" ph="select id, c... products_lazos" />
-            <marker date="1516884184149" expanded="true" signature="1175:1401" ph="select id, n... products_lazos" />
-            <marker date="1516884184149" expanded="true" signature="1735:1762" ph="delete from products_lazos... " />
-            <marker date="1516884184149" expanded="true" signature="1735:1768" ph="delete from products_lazos... " />
-            <marker date="1516884184149" expanded="true" signature="1735:1776" ph="delete from products_lazos... " />
-            <marker date="1516884184149" expanded="true" signature="1741:1762" ph="select from products_lazos" />
-            <marker date="1516884184149" expanded="true" signature="2121:2153" ph="update products_lazos... " />
-            <marker date="1516884184149" expanded="true" signature="2121:2154" ph="update products_lazos... " />
-            <marker date="1516884184149" expanded="true" signature="2121:2548" ph="update products_lazos... " />
-            <marker date="1516884184149" expanded="true" signature="3499:3921" ph="INSERT INTO products_lazos... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/cpanel/lazos/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="568">
@@ -858,14 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/cpanel/lazos/products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="104" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/cpanel/lazos/projects.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -874,47 +828,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/CpanelController.php">
+    <entry file="file://$PROJECT_DIR$/app/view/cpanel/lazos/products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="60" column="52" lean-forward="false" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+        <state relative-caret-position="77">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/method/lazos/product_update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/Products_lazos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="822">
+          <caret line="96" column="31" lean-forward="true" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
+          <folding>
+            <marker date="1516884184149" expanded="true" signature="190:354" ph="select name_... products_lazos" />
+            <marker date="1516884184149" expanded="true" signature="425:589" ph="select name_... products_lazos" />
+            <marker date="1516884184149" expanded="true" signature="861:913" ph="select id, n... products_lazos" />
+            <marker date="1516884184149" expanded="true" signature="1175:1388" ph="select id, n... products_lazos" />
+            <marker date="1516884184149" expanded="true" signature="1175:1400" ph="select id, c... products_lazos" />
+            <marker date="1516884184149" expanded="true" signature="1175:1401" ph="select id, n... products_lazos" />
+            <marker date="1516884184149" expanded="true" signature="1735:1762" ph="delete from products_lazos... " />
+            <marker date="1516884184149" expanded="true" signature="1735:1768" ph="delete from products_lazos... " />
+            <marker date="1516884184149" expanded="true" signature="1735:1776" ph="delete from products_lazos... " />
+            <marker date="1516884184149" expanded="true" signature="1741:1762" ph="select from products_lazos" />
+            <marker date="1516884184149" expanded="true" signature="2121:2153" ph="update products_lazos... " />
+            <marker date="1516884184149" expanded="true" signature="2121:2154" ph="update products_lazos... " />
+            <marker date="1516884184149" expanded="true" signature="2121:2548" ph="update products_lazos... " />
+            <marker date="1516884184149" expanded="true" signature="3499:3921" ph="INSERT INTO products_lazos... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cpanelPublic/css/styleLazos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="72" column="1" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/Article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        <state relative-caret-position="550">
+          <caret line="61" column="5" lean-forward="false" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
           <folding>
-            <marker date="1516890922586" expanded="true" signature="169:291" ph="select title... articulos_vilarthe" />
-            <marker date="1516890922586" expanded="true" signature="363:485" ph="select title... articulos_vilarthe" />
-            <marker date="1516890922586" expanded="true" signature="756:808" ph="select id, t... articles_vilarthe" />
-            <marker date="1516890922586" expanded="true" signature="1067:1216" ph="select id, t... articles_vilarthe" />
+            <marker date="1516902844455" expanded="true" signature="169:291" ph="select title... articulos_vilarthe" />
+            <marker date="1516902844455" expanded="true" signature="363:485" ph="select title... articulos_vilarthe" />
+            <marker date="1516902844455" expanded="true" signature="756:808" ph="select id, t... articles_vilarthe" />
+            <marker date="1516902844455" expanded="true" signature="1067:1216" ph="select id, t... articles_vilarthe" />
+            <marker date="1516902844455" expanded="true" signature="1586:1778" ph="update articles_vilarthe... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/CpanelController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="67" column="73" lean-forward="false" selection-start-line="67" selection-start-column="73" selection-end-line="67" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/method/lazos/project_update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/cpanelPublic/js/edit_proyect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        <state relative-caret-position="200">
+          <caret line="118" column="9" lean-forward="false" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/cpanel/lazos/project_edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="51" column="82" lean-forward="false" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="82" />
+        <state relative-caret-position="391">
+          <caret line="87" column="70" lean-forward="false" selection-start-line="87" selection-start-column="70" selection-end-line="87" selection-end-column="70" />
           <folding>
-            <marker date="1516893431915" expanded="true" signature="6501:6988" ph="..." />
-            <marker date="1516893431915" expanded="true" signature="6570:6941" ph="..." />
-            <marker date="1516893431915" expanded="true" signature="7085:8206" ph="..." />
-            <marker date="1516893431915" expanded="true" signature="7155:7624" ph="..." />
-            <marker date="1516893431915" expanded="true" signature="7224:7577" ph="..." />
-            <marker date="1516893431915" expanded="true" signature="7694:8163" ph="..." />
-            <marker date="1516893431915" expanded="true" signature="7763:8116" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="3005:3755" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="3101:3712" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="3171:3665" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="3861:5213" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="3915:4369" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="3978:4326" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="4070:4279" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="4424:5174" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="4520:5131" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="4590:5084" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="5280:6632" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="5334:5788" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="5395:5745" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="5489:5698" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="5843:6593" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="5939:6550" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="6009:6503" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="6713:7357" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="6766:7357" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="6809:6861" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="6809:7357" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="6867:7357" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="6941:7357" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="7014:7357" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="7266:7357" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="7553:7965" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="7626:7965" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="7874:7965" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="8192:8631" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="8266:8631" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="8339:8631" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="8843:9208" ph="..." />
+            <marker date="1516909835220" expanded="true" signature="8916:9208" ph="..." />
           </folding>
         </state>
       </provider>

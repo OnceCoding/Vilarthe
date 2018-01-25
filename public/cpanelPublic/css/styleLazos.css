@@ -70,16 +70,14 @@
 /* product_edit */
 .div-main__loadimage{
     width: 200px;
-    height: 200px;
+    height: 150px;
 }
 
 .div-main__topbar {
     background-color: #6c757d;
     border-radius: 4px;
 }
-.hola{
-    background-color: lightblue;
-}
+
 button:hover{
     cursor: pointer;
 }
