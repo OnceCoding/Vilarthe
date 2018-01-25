@@ -13,7 +13,7 @@ $(function () {
             cancelButtonText: 'No'
         }).then(function (result) {
             if (result.value) {
-                window.location.href = "/cpanel/products";
+                window.location.href = "/cpanel/proyects";
             }
         });
 
@@ -106,4 +106,33 @@ $("#form").bind("submit", function () {
 
 });
 
+function previewImage3() {
+    var oFReader = new FileReader();
+    oFReader.readAsDataURL(document.getElementById("input-img-3").files[0]);
+
+    oFReader.onload = function (oFREvent) {
+        document.getElementById("img-3").src = oFREvent.target.result;
+        document.getElementById("lbl-img-3").innerText = "Imagen Elegida";
+    };
+};
+
+function previewImage2() {
+    var oFReader = new FileReader();
+    oFReader.readAsDataURL(document.getElementById("input-img-2").files[0]);
+
+    oFReader.onload = function (oFREvent) {
+        document.getElementById("img-2").src = oFREvent.target.result;
+        document.getElementById("lbl-img-2").innerText = "Imagen Elegida";
+    };
+};
+
+function previewImage1() {
+    var oFReader = new FileReader();
+    oFReader.readAsDataURL(document.getElementById("input-img-1").files[0]);
+
+    oFReader.onload = function (oFREvent) {
+        document.getElementById("img-1").src = oFREvent.target.result;
+        document.getElementById("lbl-img-1").innerText = "Imagen Elegida";
+    };
+};
 

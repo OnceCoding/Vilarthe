@@ -21,4 +21,26 @@ class Article{
         return $resultSet;
     }
 
+    public function getAllArticles(){
+        $query = "select id, title_es, title_en from articles_vilarthe";
+        $conecction = Conecction::connect();
+        $ps = $conecction->prepare($query);
+        $ps->execute();
+        $resultSet = $ps->fetchAll(PDO::FETCH_ASSOC);
+        return $resultSet;
+    }
+
+    public function getArticle($id){
+        $query = "select id, title_es, title_en, description_es, description_en, slider_1, slider_2, slider_3 from articles_vilarthe
+                    WHERE id = :id";
+
+        $conecction = Conecction::connect();
+        $ps = $conecction->prepare($query);
+        $ps->execute(array(
+            ':id' => $id
+        ));
+        $resultSet = $ps->fetchAll(PDO::FETCH_ASSOC);
+        return $resultSet;
+    }
+
 }

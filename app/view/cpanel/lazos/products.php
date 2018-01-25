@@ -35,7 +35,7 @@
                         Este apartado te permite modificar, eliminar o agregar nuevos productos.
                         Los campos requeridos para cada producto son Nombre, Descripción, y la imagen del producto.
                     </p>
-                    <a class="btn btn-primary text-white" href="/cpanel/product_edit">+ NUEVO PRODUCTO</a>
+                    <a class="btn btn-primary text-white" href="/cpanel/product_new">+ NUEVO PRODUCTO</a>
                 </div>
             </div>
             <div class="row mt-5">

@@ -1,11 +1,19 @@
+<?php
+
+    require_once __DIR__ . '/../../../model/Article.php';
+    $a = new Article();
+    $articles = $a->getAllArticles();
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>cpanel</title>
+    <link rel="shortcut icon" type="image/png" href="/public/vilarthePublic/images/vilarthe_icono.png"/>
     <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
 
-    <link rel="stylesheet" href="/public/cpanelPublic/library/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/libraries/css/bootstrap.min.css">
     <link href="/public/cpanelPublic/library/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/public/cpanelPublic/css/styleLazos.css">
 
@@ -27,7 +35,7 @@
                 <div class="col-11 mx-auto mt-4">
                     <h1 style="padding-top: 15px"> Sección Proyectos <small class="text-muted"> | Lista de Proyectos</small></h1>
                     <p>
-                        Este apartado te permite modificar, eliminar o agregar nuevos Proyectos. Los campos requeridos para cada Proyecto son Nombre, Descripción, y lista de imagenes, se sugieren que sea un total de 51 imágenes para poder lograr la rotación.
+                        Este apartado te permite modificar, eliminar o agregar nuevos Proyectos. Los campos requeridos para cada Proyecto son Nombre, Descripción, y lista de imágenes.
                     </p>
                     <a href="/cpanel/project_edit" style="color:white;">+ NUEVO PROYECTO</a>
                 </div>
@@ -37,26 +45,21 @@
                     <table class="table table-hover">
                         <thead>
                             <tr>
-                                <th scope="col">#</th>
+                                <th scope="col">N°  </th>
                                 <th scope="col">Nombre</th>
                                 <th scope="col">Acción</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Conjunto 1 </td>
-                                <td>
-                                    <button class="btn btn-sm btn-warning text-white"> Editar </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Conjunto 2 </td>
-                                <td>
-                                    <button class="btn btn-sm btn-warning text-white"> Editar </button>
-                                </td>
-                            </tr>
+                            <?php for ($i = 0;$i < count($articles) ; $i++): ?>
+                                <tr>
+                                    <td><?= $i + 1 ?></td>
+                                    <td><?= $articles[$i]['title_es'] ?></td>
+                                    <td>
+                                        <a href="/cpanel/project_edit/<?= $articles[$i]['id']?>" class="btn btn-sm btn-warning text-white"> Editar </a>
+                                    </td>
+                                </tr>
+                            <?php endfor; ?>
                         </tbody>
                     </table>
                 </div>
@@ -67,9 +70,7 @@
 
     <script src="/public/cpanelPublic/library/bootstrap/js/jquery-3.1.0.min.js"></script>
     <script src="/public/cpanelPublic/library/bootstrap/js/popper.min.js"></script>
-    <script src="/public/cpanelPublic/library/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/public/cpanelPublic/js/main.js"></script>
-    <script src="/public/cpanelPublic/js/dropzone.js"></script>
-    
+    <script src="/public/libraries/js/bootstrap.min.js"></script>
+
 </body>
 </html>

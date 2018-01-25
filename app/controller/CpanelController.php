@@ -1,5 +1,6 @@
 <?php
 
+
 class CpanelController extends Controller {
 
     public function __construct(){
@@ -21,43 +22,33 @@ class CpanelController extends Controller {
         $this->view("cpanel/lazos/product_edit", $parameter);
     }
 
+    public function product_new($parameter = ''){
+        $this->validate();
+        $this->view("cpanel/lazos/product_new");
+    }
+
+    public function product_create($parameter = ''){
+        $this->validate();
+        if(isset($_POST['name_es'])){
+            require_once __DIR__ . '/../model/Products_lazos.php';
+            require_once __DIR__ . '/../method/lazos/product_create.php';
+        }
+    }
+
     public function product_del($id = ''){
         $this->validate();
         require_once __DIR__ . '/../model/Products_lazos.php';
         $p = new Products_lazos();
-        //$p->deleteProduct($data);
+        $p->deleteProduct($id);
         header('location:/cpanel/products');
     }
 
     public function product_update($id = ''){
         $this->validate();
-        if(!isset($_POST['update'])) header('location:/cpanel');
-
-        header('Content-type: application/json');
-        require_once __DIR__ . '/../model/Products_lazos.php';
-
-        $code = filter_var(trim($_POST['code']));
-        $state = ($_POST['state'] == "Visible") ? '1' : '0';
-        $name_es = filter_var(trim($_POST['name_es']));
-        $name_en = filter_var(trim($_POST['name_en']));
-
-
-        if($_FILES['image']['name']){
-            $img = strtolower($_FILES['image']['name']);
-            if($_FILES['image']['size'] > 512000){
-                return false;
-            }
-
-            move_uploaded_file($_FILES['image']['tmp_name'], '/public/lazosPublic/img/products/'. $img);
-
+        if(isset($_POST['name_es'])){
+            require_once __DIR__ . '/../model/Products_lazos.php';
+            require_once __DIR__ . '/../method/lazos/product_update.php';
         }
-        else{
-            $img = $_POST['img-default'];
-        }
-        //echo $_POST['img-default'] . 'hola';
-        $path = $_FILES['image']['name'];
-        $ext = pathinfo($path, PATHINFO_EXTENSION);
-        echo $ext;
     }
 
     public function projects(){
@@ -65,14 +56,9 @@ class CpanelController extends Controller {
         $this->view("cpanel/lazos/projects");
     }
 
-    public function projects_operations(){
+    public function project_edit($id){
         $this->validate();
-        $this->view("cpanel/lazos/projects_operations");
-    }
-
-    public function project_edit($parameter = ''){
-        $this->validate();
-        $this->view("cpanel/lazos/project_edit", $parameter);
+        $this->view("cpanel/lazos/project_edit", $id);
     }
 
     public function validate(){

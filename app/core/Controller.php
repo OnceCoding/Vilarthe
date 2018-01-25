@@ -19,10 +19,10 @@ class Controller{
 
     }
 
-    public function method($method, $data = ''){
+    public function method($method){
         //print_r($_POST);
-        if(file_exists(__DIR__ . '/../model/' . $method . '.php')){
-            require_once __DIR__ . '/../model/' . $method . '.php';
+        if(file_exists(__DIR__ . '/../method/' . $method . '.php')){
+            require_once __DIR__ . '/../method/' . $method . '.php';
         }
         else{
             die("el metodo no existe");

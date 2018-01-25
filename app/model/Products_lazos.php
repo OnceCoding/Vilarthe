@@ -79,7 +79,34 @@ class Products_lazos{
             ':col_en' => $col_en,
             ':id' => $id
         ));
-
     }
 
+    public function createProduct($code, $state, $image, $name_es, $name_en, $des_es, $des_en, $size_es, $size_en,
+                                  $material_es, $material_en, $color_es, $color_en, $col_es, $col_en)
+    {
+
+        $query = "INSERT INTO products_lazos(code, state, image, name_es, name_en, description_es, description_en, size_es,
+                      size_en, material_es, material_en, color_es, color_en, collection_es, collection_en) 
+                      VALUES (:cod, :state, :image, :name_es, :name_en, :des_es, :des_en, :size_es, :size_en, :material_es, 
+                              :material_en, :color_es, :color_en, :col_es, :col_en)";
+        $conecction = Conecction::connect();
+        $ps = $conecction->prepare($query);
+        return $ps->execute(array(
+            ':cod' => $code,
+            ':state' => $state,
+            ':image' => $image,
+            ':name_es' => $name_es,
+            ':name_en' => $name_en,
+            ':des_es' => $des_es,
+            ':des_en' => $des_en,
+            ':size_es' => $size_es,
+            ':size_en' => $size_en,
+            ':material_es' => $material_es,
+            ':material_en' => $material_en,
+            ':color_es' => $color_es,
+            ':color_en' => $color_en,
+            ':col_es' => $col_es,
+            ':col_en' => $col_en
+        ));
+    }
 }

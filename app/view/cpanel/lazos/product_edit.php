@@ -39,7 +39,8 @@
         </div>
         <div class="row mt-3">
             <div class="col-10 mx-auto">
-                <form action="/cpanel/product_update" method="post" enctype="multipart/form-data">
+                <form action="/cpanel/product_update" method="post" enctype="multipart/form-data" id="form">
+                    <input type="hidden" name="id" value="<?= $data ?>">
                     <div class="card card-body mb-5">
                         <div class="container">
                             <div class="row  py-1 div-main__topbar  d-flex align-items-center mb-3">
@@ -94,11 +95,11 @@
                                                     </div>
                                                 </div>
                                                 <div class="row no-gutters">
-                                                    <div class="custom-file col-12 col-sm-12">
-                                                        <input type="file" class="custom-file-input" id="customFile"
-                                                         name="image">
+                                                    <div class="col-12 col-sm-12">
+                                                        <!--input type="file" class="custom-file-input" id="customFile" name="image">
+                                                        <label class="custom-file-label" for="customFile">Elegir</label-->
+                                                        <input type="file" name="image">
                                                         <input type="hidden" name="img-default" value="<?= $product[0]['image'] ?>">
-                                                        <label class="custom-file-label" for="customFile"><?= $product[0]['image'] ?></label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -117,7 +118,6 @@
                             </div>
                             <div class="row">
                                 <div class="col-12">
-                                    <form>
                                         <div class="row">
                                             <div class="col-12 col-md-6">
                                                 <div class="form-group">
@@ -214,7 +214,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </form>
                                 </div>
                             </div>
                         </div>

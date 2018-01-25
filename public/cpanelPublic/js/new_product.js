@@ -36,7 +36,7 @@ $("#form").bind("submit", function () {
         processData: false,
         beforeSend : function () {
             swal({
-                text : 'Actualizando datos',
+                text : 'Registrando Producto',
                 timer : 3000,
                 onOpen : function () {
                     swal.showLoading();
@@ -48,7 +48,7 @@ $("#form").bind("submit", function () {
             //alert(response);
             if (response === "true"){
                 swal({
-                    title: 'Datos actualizados',
+                    title: 'Prodcuto Registrado',
                     text: "",
                     type: 'success',
                     confirmButtonColor: '#E19D9D',
@@ -82,7 +82,7 @@ $("#form").bind("submit", function () {
             }
             else if(response === "false"){
                 swal({
-                    title: 'Error al actualizar los datos--',
+                    title: 'Error al crear nuevo producto',
                     text: "",
                     type: 'error',
                     confirmButtonColor: '#E19D9D',
@@ -93,7 +93,7 @@ $("#form").bind("submit", function () {
         },
         error: function () {
             swal({
-                title: 'Error al actualizar los datos',
+                title: 'No se puede crear un nuevo producto',
                 text: "",
                 type: 'error',
                 confirmButtonColor: '#E19D9D',
