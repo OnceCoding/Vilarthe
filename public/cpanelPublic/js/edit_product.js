@@ -82,7 +82,7 @@ $("#form").bind("submit", function () {
             }
             else if(response === "false"){
                 swal({
-                    title: 'Error al actualizar los datos--',
+                    title: 'Error al actualizar los datos',
                     text: "",
                     type: 'error',
                     confirmButtonColor: '#E19D9D',
@@ -106,4 +106,12 @@ $("#form").bind("submit", function () {
 
 });
 
+function previewImage() {
+    var oFReader = new FileReader();
+    oFReader.readAsDataURL(document.getElementById("img").files[0]);
+
+    oFReader.onload = function (oFREvent) {
+        document.getElementById("img-prev").src = oFREvent.target.result;
+    };
+}
 

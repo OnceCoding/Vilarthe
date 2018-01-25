@@ -91,14 +91,14 @@
                                             <div class="form-group ">
                                                 <div class="row">
                                                     <div class="col-12">
-                                                        <label for="inputName" class="">Imagen </label>
+                                                        <label for="inputName" class="">Imagen - 562 x 702  </label>
                                                     </div>
                                                 </div>
                                                 <div class="row no-gutters">
                                                     <div class="col-12 col-sm-12">
                                                         <!--input type="file" class="custom-file-input" id="customFile" name="image">
                                                         <label class="custom-file-label" for="customFile">Elegir</label-->
-                                                        <input type="file" name="image">
+                                                        <input accept=".png,.jpg,.jpeg" id="img" type="file" name="image" onchange="previewImage()">
                                                         <input type="hidden" name="img-default" value="<?= $product[0]['image'] ?>">
                                                     </div>
                                                 </div>
@@ -110,7 +110,7 @@
                                     <div class="row">
                                         <div class="col-12">
                                             <div class="div-main__loadimage mx-auto my-auto">
-                                                <img class="img-fluid" src="/public/lazosPublic/img/products/<?= $product[0]['image'] ?>">
+                                                <img id="img-prev" class="img-fluid" src="/public/lazosPublic/img/products/<?= $product[0]['image'] ?>">
                                             </div>
                                         </div>
                                     </div>

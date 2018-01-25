@@ -7,11 +7,11 @@ class Article{
     public function getData($language){
         $query = "";
         if($language == 'es'){
-            $query = "select title_1_spanish, title_2_spanish, description_1_spanish, description_2_spanish from articulos_vilarthe WHERE id = 1";
+            $query = "select title_es, description_es, slider_1, slider_2, slider_3 from articles_vilarthe ";
 
         }
         else if($language == 'en'){
-            $query = "select title_1_english, title_2_english, description_1_english, description_2_english from articulos_vilarthe WHERE id = 1";
+            $query = "select title_en, description_en, slider_1, slider_2, slider_3  from articles_vilarthe ";
         }
 
         $conecction = Conecction::connect();

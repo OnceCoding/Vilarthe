@@ -17,14 +17,16 @@
     $collection_es = filter_var(trim($_POST['collection_es']), FILTER_SANITIZE_STRING);
     $collection_en = filter_var(trim($_POST['collection_en']), FILTER_SANITIZE_STRING);
 
-    $img = strtolower($_FILES['image']['name']);
+    $img = time();
     if($_FILES['image']['size'] > 512000){
         return  print(json_encode("img-size"));
     }
 
     $ext = pathinfo($_FILES['image']['name'], PATHINFO_EXTENSION) ;
     if($ext == 'png' || $ext = 'jpg' || $ext = 'PNG' || $ext = 'JPG'){
-        move_uploaded_file($_FILES['image']['tmp_name'], __DIR__ . '/../../../public/lazosPublic/img/products/'. $img);
+        $img = $img . '.' . $ext;
+        move_uploaded_file($_FILES['image']['tmp_name'],
+            __DIR__ . '/../../../public/lazosPublic/img/products/'. $img);
     }
     else{
         return print(json_encode("img-ext"));

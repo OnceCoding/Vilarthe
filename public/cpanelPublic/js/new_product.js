@@ -48,7 +48,7 @@ $("#form").bind("submit", function () {
             //alert(response);
             if (response === "true"){
                 swal({
-                    title: 'Prodcuto Registrado',
+                    title: 'Producto Registrado',
                     text: "",
                     type: 'success',
                     confirmButtonColor: '#E19D9D',
@@ -106,4 +106,13 @@ $("#form").bind("submit", function () {
 
 });
 
+
+function previewImage() {
+    var oFReader = new FileReader();
+    oFReader.readAsDataURL(document.getElementById("img").files[0]);
+
+    oFReader.onload = function (oFREvent) {
+        document.getElementById("img-prev").src = oFREvent.target.result;
+    };
+}
 

@@ -10,7 +10,6 @@
     $resulSetProducts = $products->getProductsAvailables($data = 'es');
 
 ?>
-
 <!DOCTYPE html>
 <html lang="es" prefix="og: http://ogp.me/ns#">
 <head>
@@ -201,59 +200,7 @@
                         </div>
                     </div>
                 <?php endforeach; ?>
-
-                <!--div class="col-10 offset-1 offset-md-0 col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="/public/lazosPublic/img/imgConjunto1.PNG" class="card-img" alt="">
-                            <h4 class="card-title mt-3 text-center"> Conjunto 1 </h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-10 offset-1 offset-md-0 col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="/public/lazosPublic/img/imgConjunto2.PNG" class="card-img" alt="">
-                            <h4 class="card-title mt-3 text-center"> Conjunto 2 </h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-10 offset-1 offset-md-0 col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="/public/lazosPublic/img/imgConjunto3.PNG" class="card-img" alt="">
-                            <h4 class="card-title mt-3 text-center"> Conjunto 3 </h4>
-                        </div>
-                    </div>
-                </div>
             </div>
-
-            <div class="row">
-                    <div class="col-10 offset-1 offset-md-0 col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="/public/lazosPublic/img/imgConjunto1.PNG" class="card-img" alt="">
-                                <h4 class="card-title mt-3 text-center"> Conjunto 1 </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-10 offset-1 offset-md-0 col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="/public/lazosPublic/img/imgConjunto2.PNG" class="card-img" alt="">
-                                <h4 class="card-title mt-3 text-center"> Conjunto 2 </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-10 offset-1 offset-md-0 col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="/public/lazosPublic/img/imgConjunto3.PNG" class="card-img" alt="">
-                                <h4 class="card-title mt-3 text-center"> Conjunto 3 </h4>
-                            </div>
-                        </div>
-                    </div-->
-                </div>
 
         </div>
     </section>
@@ -271,27 +218,30 @@
                         </div>
                         <div class="row">
                             <div class="col-10 offset-1 col-sm-10 offset-lg-0 col-lg-6 mt-3">
+
+
                                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
-                                    <div class="carousel-item active">
-                                        <img class="d-block img-fluid" src="/public/lazosPublic/img/articles/1_3_25_01_2018.png" alt="First slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block img-fluid" src="/public/lazosPublic/img/articles/1_1_25_01_2018.jpg" alt="Second slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block img-fluid" src="/public/lazosPublic/img/articles/1_1_25_01_2018.jpg" alt="Third slide">
-                                    </div>
+                                        <div class="carousel-item active">
+                                            <img class="d-block img-fluid" src="/public/lazosPublic/img/articles/<?= $resulSetArticle[0]['slider_1'] ?> " alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block img-fluid" src="/public/lazosPublic/img/articles/<?= $resulSetArticle[0]['slider_2'] ?>" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block img-fluid" src="/public/lazosPublic/img/articles/<?= $resulSetArticle[0]['slider_3'] ?>" alt="Third slide">
+                                        </div>
                                     </div>
                                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
                                     </a>
                                     <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
                                     </a>
                                 </div>
+
 
                             </div>
 
@@ -299,7 +249,7 @@
                                 <div class="mu-business-content ">
                                     <h2 class="text-center"><strong>Apoyo a comunidades rurales</strong></h2>
                                     <p>
-                                        <?= $resulSetArticle[0]['description_1_spanish'] ?>
+                                        <?= $resulSetArticle[0]['description_es'] ?>
                                     </p>
                                 </div>
                             </div>
@@ -317,42 +267,35 @@
                         <div class="mu-business-content">
                             <h2 class="text-center"><strong>Al rescate de nuestro algodón nativo orgánico</strong></h2>
                             <p>
-                                <?= $resulSetArticle[0]['description_2_spanish'] ?>
+                                <?= $resulSetArticle[0]['description_es'] ?>
                             </p>
-                            <!--div class="d-none d-md-block">
-                                <p>Capacitaciones</p>
-                                <ul>
-                                    <li>Implementación de las 5Ss / Ministerio de comercio exterior y turismo.</li>
-                                    <li>Fortalecer la red de asociaciones en el mercado de organización y artesanía / Cáritas, Fondo Ítalo Peruano.</li>
-                                    <li>Programa de formación: Comité de gestión del Santuario Histórico Bosque de Pómac.</li>
-                                    <li>Proceso de implementación de las NTP 232.204 2014 ARTESANÍAS, ARTESANIAS DE TEXTL EN TELAR DE CINTURA, REQUISITOS.</li>
-                                    <li>Programa Nacional de Turismo Andino / Sierra exportadora.</li>
-                                </ul>
-                            </div-->
                         </div>
                 </div>
                 <div class="col-10 offset-1 offset-lg-0 col-lg-6 order-1 order-lg-2">
-                    <div id="carouselExampleControls1" class="carousel" data-ride="carousel">
-                            <div class="carousel-inner" role="listbox">
+
+                    <div id="cc" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                                <img class="d-block img-fluid" src="/public/lazosPublic/img/articles/1_1_25_01_2018.jpg" alt="First slide">
+                                <img class="d-block img-fluid" src="/public/lazosPublic/img/articles/<?= $resulSetArticle[1]['slider_1'] ?> " alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="/public/lazosPublic/img/articles/1_2_25_01_2018.jpg" alt="Second slide">
+                                <img class="d-block img-fluid" src="/public/lazosPublic/img/articles/<?= $resulSetArticle[1]['slider_2'] ?>" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="/public/lazosPublic/img/articles/2_1_25_01_2018.jpg" alt="Third slide">
+                                <img class="d-block img-fluid" src="/public/lazosPublic/img/articles/<?= $resulSetArticle[1]['slider_3'] ?>" alt="Third slide">
                             </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+                        </div>
+                        <a class="carousel-control-prev" href="#cc" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+                        </a>
+                        <a class="carousel-control-next" href="#cc" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
-                            </a>
-                        </div>
+                        </a>
+                    </div>
+
+
                 </div>
             </div>
         </div>
