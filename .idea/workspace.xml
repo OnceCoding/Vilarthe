@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca93eb97-7105-44b0-be84-cbfd51660aca" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/lazosPublic/img/imgAbout.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/lazosPublic/img/imgb.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/method/lazos/product_create.php" afterPath="$PROJECT_DIR$/app/method/lazos/product_create.php" />
-      <change beforePath="$PROJECT_DIR$/app/method/lazos/product_update.php" afterPath="$PROJECT_DIR$/app/method/lazos/product_update.php" />
-      <change beforePath="$PROJECT_DIR$/app/model/Article.php" afterPath="$PROJECT_DIR$/app/model/Article.php" />
-      <change beforePath="$PROJECT_DIR$/app/view/cpanel/lazos/product_edit.php" afterPath="$PROJECT_DIR$/app/view/cpanel/lazos/product_edit.php" />
-      <change beforePath="$PROJECT_DIR$/app/view/cpanel/lazos/product_new.php" afterPath="$PROJECT_DIR$/app/view/cpanel/lazos/product_new.php" />
+      <change beforePath="$PROJECT_DIR$/app/config/env_host.php" afterPath="$PROJECT_DIR$/app/config/env_host.php" />
+      <change beforePath="$PROJECT_DIR$/app/extras/Mail.php" afterPath="$PROJECT_DIR$/app/extras/Mail.php" />
+      <change beforePath="$PROJECT_DIR$/app/model/Conecction.php" afterPath="$PROJECT_DIR$/app/model/Conecction.php" />
       <change beforePath="$PROJECT_DIR$/app/view/lazos/en/index.php" afterPath="$PROJECT_DIR$/app/view/lazos/en/index.php" />
       <change beforePath="$PROJECT_DIR$/app/view/lazos/es/index.php" afterPath="$PROJECT_DIR$/app/view/lazos/es/index.php" />
-      <change beforePath="$PROJECT_DIR$/public/cpanelPublic/js/edit_product.js" afterPath="$PROJECT_DIR$/public/cpanelPublic/js/edit_product.js" />
-      <change beforePath="$PROJECT_DIR$/public/cpanelPublic/js/new_product.js" afterPath="$PROJECT_DIR$/public/cpanelPublic/js/new_product.js" />
+      <change beforePath="$PROJECT_DIR$/public/lazosPublic/css/style.css" afterPath="$PROJECT_DIR$/public/lazosPublic/css/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="product_edit.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/view/cpanel/lazos/product_edit.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/view/lazos/en/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="93" column="107" lean-forward="false" selection-start-line="93" selection-start-column="107" selection-end-line="93" selection-end-column="107" />
+            <state relative-caret-position="355">
+              <caret line="367" column="47" lean-forward="false" selection-start-line="367" selection-start-column="47" selection-end-line="367" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -83,12 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/controller/LazosController.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4d2e3c0a-fcdf-43c6-a786-bf104afb71c6/console.sql" />
-        <option value="$PROJECT_DIR$/app/model/Conecction.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/public/lazosPublic/js/main.js" />
-        <option value="$PROJECT_DIR$/public/lazosPublic/js/script_es.js" />
         <option value="$PROJECT_DIR$/public/lazosPublic/js/script_en.js" />
         <option value="$PROJECT_DIR$/app/.htaccess" />
         <option value="$PROJECT_DIR$/public/loginPublic/js/mainLogin.js" />
@@ -126,14 +119,20 @@
         <option value="$PROJECT_DIR$/app/method/lazos/project_update.php" />
         <option value="$PROJECT_DIR$/app/view/cpanel/lazos/project_edit.php" />
         <option value="$PROJECT_DIR$/app/model/Article.php" />
-        <option value="$PROJECT_DIR$/app/view/lazos/en/index.php" />
-        <option value="$PROJECT_DIR$/app/view/lazos/es/index.php" />
         <option value="$PROJECT_DIR$/public/cpanelPublic/js/new_product.js" />
         <option value="$PROJECT_DIR$/app/method/lazos/product_create.php" />
         <option value="$PROJECT_DIR$/app/method/lazos/product_update.php" />
         <option value="$PROJECT_DIR$/public/cpanelPublic/js/edit_product.js" />
         <option value="$PROJECT_DIR$/app/view/cpanel/lazos/product_new.php" />
         <option value="$PROJECT_DIR$/app/view/cpanel/lazos/product_edit.php" />
+        <option value="$PROJECT_DIR$/app/config/env_host.php" />
+        <option value="$PROJECT_DIR$/app/model/Conecction.php" />
+        <option value="$PROJECT_DIR$/public/lazosPublic/css/style.css" />
+        <option value="$PROJECT_DIR$/app/extras/Mail.php" />
+        <option value="&lt;0f53299f-0437-4389-a227-3a686ff85bad&gt;/app/view/lazos/en/index.php" />
+        <option value="&lt;0f53299f-0437-4389-a227-3a686ff85bad&gt;/app/view/lazos/es/index.php" />
+        <option value="$PROJECT_DIR$/app/view/lazos/es/index.php" />
+        <option value="$PROJECT_DIR$/app/view/lazos/en/index.php" />
       </list>
     </option>
   </component>
@@ -234,32 +233,7 @@
               <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="extras" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="method" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="method" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lazos" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
@@ -278,15 +252,28 @@
               <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="cpanel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lazos" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="cpanel" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="lazos" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="en" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lazos" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="es" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -319,11 +306,11 @@
       <recent name="C:\xampp\htdocs\Vilarthe\app\extras" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Vilarthe\public\lazosPublic\img" />
       <recent name="C:\xampp\htdocs\Vilarthe\public\lazosPublic\img\articles" />
       <recent name="C:\xampp\htdocs\Vilarthe\public\cpanelPublic\js" />
       <recent name="C:\xampp\htdocs\Vilarthe\app\method\lazos" />
       <recent name="C:\xampp\htdocs\Vilarthe\app\view\cpanel\lazos" />
-      <recent name="C:\xampp\htdocs\Vilarthe\public\libraries\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -387,12 +374,12 @@
       <workItem from="1516740544205" duration="12464000" />
       <workItem from="1516805269258" duration="6094000" />
       <workItem from="1516826670872" duration="15344000" />
-      <workItem from="1516853602747" duration="41187000" />
+      <workItem from="1516853602747" duration="52515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="326019000" />
+    <option name="totallyTimeSpent" value="337347000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -407,16 +394,18 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20121029" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2246596" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37730062" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2375189" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18532526" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -424,12 +413,36 @@
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37730062" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2375189" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18532526" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -442,29 +455,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/loginPublic/images/gente_varios.jpeg" />
-    <entry file="file://$PROJECT_DIR$/app/view/login/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/loginPublic/css/styleLogin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="46" lean-forward="false" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/cpanel/template.php" />
-    <entry file="file://$PROJECT_DIR$/app/view/cpanel/lazos/projects_operations.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/LazosController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -482,14 +472,6 @@
     <entry file="file://$PROJECT_DIR$/public/lazosPublic/img/products/imgConjunto1.png" />
     <entry file="file://$PROJECT_DIR$/public/lazosPublic/img/products/imgConjunto2.png" />
     <entry file="file://$PROJECT_DIR$/public/lazosPublic/img/products/imgConjunto3.png" />
-    <entry file="file://$PROJECT_DIR$/app/view/lazos/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="41" column="119" lean-forward="false" selection-start-line="41" selection-start-column="119" selection-end-line="41" selection-end-column="119" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/vilarthe/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -562,13 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/extras/Mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -732,45 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Products_lazos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="96" column="31" lean-forward="true" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
-          <folding>
-            <marker date="1516884184149" expanded="true" signature="190:354" ph="select name_... products_lazos" />
-            <marker date="1516884184149" expanded="true" signature="425:589" ph="select name_... products_lazos" />
-            <marker date="1516884184149" expanded="true" signature="861:913" ph="select id, n... products_lazos" />
-            <marker date="1516884184149" expanded="true" signature="1175:1388" ph="select id, n... products_lazos" />
-            <marker date="1516884184149" expanded="true" signature="1175:1400" ph="select id, c... products_lazos" />
-            <marker date="1516884184149" expanded="true" signature="1175:1401" ph="select id, n... products_lazos" />
-            <marker date="1516884184149" expanded="true" signature="1735:1762" ph="delete from products_lazos... " />
-            <marker date="1516884184149" expanded="true" signature="1735:1768" ph="delete from products_lazos... " />
-            <marker date="1516884184149" expanded="true" signature="1735:1776" ph="delete from products_lazos... " />
-            <marker date="1516884184149" expanded="true" signature="1741:1762" ph="select from products_lazos" />
-            <marker date="1516884184149" expanded="true" signature="2121:2153" ph="update products_lazos... " />
-            <marker date="1516884184149" expanded="true" signature="2121:2154" ph="update products_lazos... " />
-            <marker date="1516884184149" expanded="true" signature="2121:2548" ph="update products_lazos... " />
-            <marker date="1516884184149" expanded="true" signature="3499:3921" ph="INSERT INTO products_lazos... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/lazos/en/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="272" column="34" lean-forward="true" selection-start-line="272" selection-start-column="34" selection-end-line="272" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/lazos/es/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="269" column="71" lean-forward="false" selection-start-line="269" selection-start-column="71" selection-end-line="269" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/model/Article.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -838,6 +774,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="93" column="107" lean-forward="false" selection-start-line="93" selection-start-column="107" selection-end-line="93" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lazosPublic/img/imgBanner4_tiny.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lazosPublic/img/nosotros.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/Products_lazos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1516884184149" expanded="true" signature="190:354" ph="select name_... products_lazos" />
+            <marker date="1516884184149" expanded="true" signature="425:589" ph="select name_... products_lazos" />
+            <marker date="1516884184149" expanded="true" signature="861:913" ph="select id, n... products_lazos" />
+            <marker date="1516884184149" expanded="true" signature="1175:1388" ph="select id, n... products_lazos" />
+            <marker date="1516884184149" expanded="true" signature="1175:1400" ph="select id, c... products_lazos" />
+            <marker date="1516884184149" expanded="true" signature="1175:1401" ph="select id, n... products_lazos" />
+            <marker date="1516884184149" expanded="true" signature="1735:1762" ph="delete from products_lazos... " />
+            <marker date="1516884184149" expanded="true" signature="1735:1768" ph="delete from products_lazos... " />
+            <marker date="1516884184149" expanded="true" signature="1735:1776" ph="delete from products_lazos... " />
+            <marker date="1516884184149" expanded="true" signature="1741:1762" ph="select from products_lazos" />
+            <marker date="1516884184149" expanded="true" signature="2121:2153" ph="update products_lazos... " />
+            <marker date="1516884184149" expanded="true" signature="2121:2154" ph="update products_lazos... " />
+            <marker date="1516884184149" expanded="true" signature="2121:2548" ph="update products_lazos... " />
+            <marker date="1516884184149" expanded="true" signature="3499:3921" ph="INSERT INTO products_lazos... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/lazos/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="187" column="66" lean-forward="true" selection-start-line="187" selection-start-column="66" selection-end-line="187" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lazosPublic/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="198" column="0" lean-forward="true" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+          <folding>
+            <element signature="e#6508#6819#2" expanded="true" />
+            <element signature="e#9654#9946#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/env_host.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/extras/Mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="140" lean-forward="false" selection-start-line="30" selection-start-column="140" selection-end-line="30" selection-end-column="140" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/Conecction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/lazos/es/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2359">
+          <caret line="385" column="65" lean-forward="false" selection-start-line="385" selection-start-column="65" selection-end-line="385" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/lazos/en/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="367" column="47" lean-forward="false" selection-start-line="367" selection-start-column="47" selection-end-line="367" selection-end-column="47" />
           <folding />
         </state>
       </provider>

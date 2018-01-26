@@ -5,7 +5,8 @@ header('Content-type: application/json'); // importanto to return json files
 
 if(isset($_POST['name']) && isset($_POST['phone']) && isset($_POST['email']) && isset($_POST['message'])){
 
-    $to = 'jose95sp@outlook.com';
+    //$to = 'jose95sp@outlook.com';
+    $to = 'edusernav@gmail.com';
 
     $name = filter_var(trim($_POST['name']), FILTER_SANITIZE_STRING);
     $phone = filter_var(trim($_POST['phone']), FILTER_SANITIZE_STRING);
@@ -27,7 +28,7 @@ if(isset($_POST['name']) && isset($_POST['phone']) && isset($_POST['email']) && 
     //se le envia un email al cliente como respuesta
 
     $title = 'Lazos';
-    $message = '';
+    $message = 'Gracias por conectarse con nosotros, en breves momentos su consulta será atendida por nuestros colaboradores. Tenga buen día';
     $header = 'Content-type: text/html; charset=utf-8' . "\r\n";
     $header.= 'To: ' . $name .'<' . $from . '>' . "\r\n";
     $header.= 'From: Lazos<' . $to . '>' . "\r\n";

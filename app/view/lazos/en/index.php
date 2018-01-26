@@ -189,16 +189,30 @@
             </div>
             <div class="row">
 
+
+
                 <?php foreach ($resulSetProducts as $product): ?>
                     <div class="col-10 offset-1 offset-md-0 col-md-4">
                         <div class="card">
-                            <img src="<?= '/public/lazosPublic/img/products/'  . $product['image'] ?>" class="card-img" alt="">
-                            <div class="card-body">
-                                <h4 class="card-title mt-3 text-center h6"> <?= $product['name_en'] ?> </h4>
+                            <div class="hovereffect">
+                                <img src="<?= '/public/lazosPublic/img/products/'  . $product['image'] ?>" class="card-img" alt="">
+                                <div class="overlay">
+                                    <p><b>Description : </b>  <?= $product['description_en'] ?> </p>
+                                    <p><b>Size : </b>  <?= $product['size_en'] ?> </p>
+                                    <p><b>Material : </b>  <?= $product['material_en'] ?> </p>
+                                    <p><b>Color : </b>  <?= $product['color_en'] ?> </p>
+                                    <p><b>Collection : </b>  <?= $product['collection_en'] ?> </p>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title mt-3 text-center h6"> <?= $product['name_en'] ?> </h4>
+                                </div>
                             </div>
                         </div>
                     </div>
                 <?php endforeach; ?>
+
+
+
             </div>
         </div>
     </section>
@@ -351,7 +365,7 @@
                         <p>Email : info@vilarthe.co</p>
                     </div>
                     <div class=" text-center">
-                        <p>Address : Chiclayo, Perú</p>
+                        <p>Address : Lambayeque, Perú</p>
                     </div>
                 </div>
             </div>

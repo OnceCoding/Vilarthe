@@ -190,17 +190,28 @@
             </div>
             <div class="row">
 
+
+
                 <?php foreach ($resulSetProducts as $product): ?>
                     <div class="col-10 offset-1 offset-md-0 col-md-4">
                         <div class="card">
-                            <img src="<?= '/public/lazosPublic/img/products/' . $product['image'] ?>" class="card-img" alt="">
-                            <div class="card-body">
-                                <h4 class="card-title mt-3 text-center h6"> <?= $product['name_es'] ?> </h4>
+                            <div class="hovereffect">
+                                <img src="<?= '/public/lazosPublic/img/products/'  . $product['image'] ?>" class="card-img" alt="">
+                                <div class="overlay">
+                                    <p><b>Descripción : </b>  <?= $product['description_es'] ?> </p>
+                                    <p><b>Talla : </b>  <?= $product['size_es'] ?> </p>
+                                    <p><b>Material : </b>  <?= $product['material_es'] ?> </p>
+                                    <p><b>Color : </b>  <?= $product['color_es'] ?> </p>
+                                    <p><b>Colección : </b>  <?= $product['collection_es'] ?> </p>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title mt-3 text-center h6"> <?= $product['name_es'] ?> </h4>
+                                </div>
                             </div>
                         </div>
                     </div>
                 <?php endforeach; ?>
-            </div>
+
 
         </div>
     </section>
@@ -267,7 +278,7 @@
                         <div class="mu-business-content">
                             <h2 class="text-center"><strong>Al rescate de nuestro algodón nativo orgánico</strong></h2>
                             <p>
-                                <?= $resulSetArticle[0]['description_es'] ?>
+                                <?= $resulSetArticle[1]['description_es'] ?>
                             </p>
                         </div>
                 </div>
@@ -372,7 +383,7 @@
                     </div>
                     <div class="single_contact_info">
                         <h2>Dirección</h2>
-                        <p style="text-align: center;">Chiclayo, Perú</p>
+                        <p style="text-align: center;">Lambayeque, Perú</p>
                     </div>
                 </div>
 
