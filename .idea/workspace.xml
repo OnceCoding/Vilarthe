@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca93eb97-7105-44b0-be84-cbfd51660aca" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/method/lazos/product_create.php" afterPath="$PROJECT_DIR$/app/method/lazos/product_create.php" />
+      <change beforePath="$PROJECT_DIR$/app/method/lazos/product_update.php" afterPath="$PROJECT_DIR$/app/method/lazos/product_update.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,31 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="del_product.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/cpanelPublic/js/del_product.js">
+      <file leaf-file-name="edit_product.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/cpanelPublic/js/edit_product.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+            <state relative-caret-position="1343">
+              <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Core.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/core/Core.php">
+      <file leaf-file-name="product_update.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/method/lazos/product_update.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product_create.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/method/lazos/product_create.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="25" column="65" lean-forward="false" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+            <state relative-caret-position="193">
+              <caret line="30" column="69" lean-forward="false" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -129,7 +118,6 @@
         <option value="$PROJECT_DIR$/app/view/cpanel/lazos/project_edit.php" />
         <option value="$PROJECT_DIR$/app/model/Article.php" />
         <option value="$PROJECT_DIR$/public/cpanelPublic/js/new_product.js" />
-        <option value="$PROJECT_DIR$/app/method/lazos/product_update.php" />
         <option value="$PROJECT_DIR$/public/cpanelPublic/js/edit_product.js" />
         <option value="$PROJECT_DIR$/app/view/cpanel/lazos/product_new.php" />
         <option value="$PROJECT_DIR$/app/view/cpanel/lazos/product_edit.php" />
@@ -146,6 +134,7 @@
         <option value="$PROJECT_DIR$/app/view/vilarthe/index.php" />
         <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/app/method/lazos/product_create.php" />
+        <option value="$PROJECT_DIR$/app/method/lazos/product_update.php" />
       </list>
     </option>
   </component>
@@ -266,6 +255,27 @@
               <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="model" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cpanel" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vilarthe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cpanel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lazos" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Vilarthe" type="b2602c69:ProjectViewProjectNode" />
@@ -395,12 +405,12 @@
       <workItem from="1517501751298" duration="10291000" />
       <workItem from="1517536623294" duration="5829000" />
       <workItem from="1517597277240" duration="28000" />
-      <workItem from="1517808594081" duration="8327000" />
+      <workItem from="1517808594081" duration="9355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="364691000" />
+    <option name="totallyTimeSpent" value="365719000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,20 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/method/lazos/product_update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="33" column="77" lean-forward="false" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/cpanelPublic/js/edit_product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/cpanel/lazos/product_new.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -745,13 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/cpanel/lazos/product_edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="93" column="107" lean-forward="false" selection-start-line="93" selection-start-column="107" selection-end-line="93" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/cpanelPublic/css/styleLazos.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
@@ -763,14 +752,6 @@
     <entry file="file://$PROJECT_DIR$/public/cpanelPublic/img/logoFondoOscuro_h56px.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/cpanelPublic/js/del_product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/Products_lazos.php">
@@ -789,6 +770,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/method/lazos/product_create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/core/Core.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -797,10 +786,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/method/lazos/product_create.php">
+    <entry file="file://$PROJECT_DIR$/public/cpanelPublic/js/del_product.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="65" lean-forward="false" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+        <state relative-caret-position="340">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cpanelPublic/js/edit_product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/cpanel/lazos/product_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="87" column="42" lean-forward="true" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/method/lazos/product_update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="30" column="69" lean-forward="false" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
           <folding />
         </state>
       </provider>

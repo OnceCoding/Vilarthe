@@ -28,7 +28,7 @@
         }
 
         $ext = pathinfo($_FILES['image']['name'], PATHINFO_EXTENSION) ;
-        if($ext == 'png' || $ext = 'jpg' || $ext = 'PNG' || $ext = 'JPG'){
+        if($ext == 'png' || $ext == 'jpg' || $ext == 'PNG' || $ext == 'JPG'){
             $img = $img . '.' . $ext;
             move_uploaded_file($_FILES['image']['tmp_name'],
                 __DIR__ . '/../../../public/lazosPublic/img/products/'. $img );
